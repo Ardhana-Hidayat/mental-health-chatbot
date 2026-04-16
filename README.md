@@ -9,23 +9,23 @@ Mahasiswa mengisi, memodifikasi, dan mengembangkan kode ini sesuai topik kelompo
 
 ## 👥 Identitas Kelompok
 
-| Nama | NIM | Tugas Utama |
-|------|-----|-------------|
-| ...  | ... | ...         |
-| ...  | ... | ...         |
-| ...  | ... | ...         |
+| Nama                    | NIM       | Tugas Utama |
+|-------------------------|-----------|-------------|
+| Muhammad Adam Al Kidri  | 24431103  | ...         |
+| Iqbal Abdullah          | 24431103  | ...         |
+| Ardhana Syah Hidayat    | 244311037 | ...         |
 
-**Topik Domain:** *(isi: Akademik / Kesehatan / Hukum / Bisnis / Pertanian / Teknologi)*  
-**Stack yang Dipilih:** *(isi: LangChain / LlamaIndex / From Scratch)*  
-**LLM yang Digunakan:** *(isi: Groq / Gemini / Ollama / lainnya)*  
-**Vector DB yang Digunakan:** *(isi: ChromaDB / FAISS / lainnya)*
+**Topik Domain:** *Kesehatan (Kesehatan Mental)*  
+**Stack yang Dipilih:** *From Scratch*  
+**LLM yang Digunakan:** *Grok API*  
+**Vector DB yang Digunakan:** *ChromaDB*
 
 ---
 
 ## 🗂️ Struktur Proyek
 
 ```
-rag-uts-[nama-kelompok]/
+rag-uts-kelompok-3/
 ├── data/                    # Dokumen sumber Anda (PDF, TXT, dll.)
 │   └── sample.txt           # Contoh dokumen (ganti dengan dokumen Anda)
 ├── src/
