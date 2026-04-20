@@ -26,6 +26,107 @@ st.set_page_config(
     layout="wide"
 )
 
+# ─── Custom Theme ───────────────────────────────────────────────
+st.markdown("""
+<style>
+/* ── Sidebar ── */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #2b8be0 0%, #43a3f7 100%);
+}
+[data-testid="stSidebar"] * {
+    color: #ffffff !important;
+}
+[data-testid="stSidebar"] .stSlider label,
+[data-testid="stSidebar"] .stCheckbox label,
+[data-testid="stSidebar"] .stMarkdown p,
+[data-testid="stSidebar"] .stMarkdown strong,
+[data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3, [data-testid="stSidebar"] h4 {
+    color: #ffffff !important;
+}
+[data-testid="stSidebar"] hr {
+    border-color: rgba(255,255,255,0.25) !important;
+}
+[data-testid="stSidebar"] [data-testid="stAlert"] {
+    background-color: rgba(255,255,255,0.12) !important;
+    border: 1px solid rgba(255,255,255,0.2) !important;
+}
+[data-testid="stSidebar"] .stSlider [data-testid="stThumbValue"],
+[data-testid="stSidebar"] .stSlider [data-baseweb="slider"] div {
+    color: #ffffff !important;
+}
+
+/* ── Main Area ── */
+[data-testid="stAppViewContainer"],
+[data-testid="stMain"],
+.main .block-container {
+    background-color: #ffffff !important;
+}
+[data-testid="stAppViewContainer"] h1,
+[data-testid="stAppViewContainer"] h2,
+[data-testid="stAppViewContainer"] h3 {
+    color: #1a3a6b !important;
+}
+[data-testid="stAppViewContainer"] p,
+[data-testid="stAppViewContainer"] span,
+[data-testid="stAppViewContainer"] label,
+[data-testid="stAppViewContainer"] .stMarkdown {
+    color: #2c3e50 !important;
+}
+[data-testid="stAppViewContainer"] .stCaption p {
+    color: #5a7baa !important;
+}
+[data-testid="stAppViewContainer"] hr {
+    border-color: #d6e4f0 !important;
+}
+
+/* ── Header bar ── */
+[data-testid="stHeader"] {
+    background-color: #ffffff !important;
+}
+
+/* ── Tombol ── */
+.stButton > button {
+    background-color: #1e5099 !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 8px !important;
+    transition: background-color 0.3s ease;
+}
+.stButton > button:hover {
+    background-color: #1a3a6b !important;
+}
+
+/* ── Chat input ── */
+[data-testid="stChatInput"] textarea {
+    border-color: #1e5099 !important;
+    color: #2c3e50 !important;
+    background-color: #f0f5fc !important;
+}
+[data-testid="stChatInput"] textarea:focus {
+    border-color: #1a3a6b !important;
+    box-shadow: 0 0 0 2px rgba(30,80,153,0.2) !important;
+}
+
+/* ── Success / Error alerts di main ── */
+[data-testid="stAppViewContainer"] [data-testid="stAlert"] {
+    border-radius: 8px !important;
+}
+
+/* ── Chat messages ── */
+[data-testid="stChatMessage"] {
+    background-color: #f0f5fc !important;
+    border: 1px solid #d6e4f0 !important;
+    border-radius: 10px !important;
+}
+
+/* ── Expander ── */
+[data-testid="stAppViewContainer"] .streamlit-expanderHeader {
+    color: #1e5099 !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
 # ─── Header ───────────────────────────────────────────────────────────────────
 st.title("Sistem Tanya-Jawab RAG")
 st.caption("UTS Data Engineering — Retrieval-Augmented Generation")
