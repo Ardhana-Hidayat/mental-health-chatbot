@@ -1,0 +1,34 @@
+import csv
+from PyPDF2 import PdfReader
+
+def baca_pdf(file_path):
+    teks = ""
+    try:
+        reader = PdfReader(file_path)
+        for halaman in reader.pages:
+            teks += halaman.extract_text() + "\n"
+    except Exception as e:
+        print(f"Gagal membaca PDF: {e}")
+    return teks
+
+def baca_csv(file_path):
+    teks = ""
+    try:
+        with open(file_path, mode='r', encoding='utf-8') as file:
+            csv_reader = csv.DictReader(file)
+            for baris in csv_reader:
+                tanya = baris.get('Pertanyaan', baris.get('Questions', ''))
+                jawab = baris.get('Jawaban', baris.get('Answers', ''))
+                teks += f"Pertanyaan: {tanya}\nJawaban: {jawab}\n\n"
+    except Exception as e:
+        print(f"Gagal membaca CSV: {e}")
+    return teks
+
+def potong_teks(teks, ukuran=500, tumpang_tindih=50):
+    potongan = []
+    mulai = 0
+    while mulai < len(teks):
+        selesai = mulai + ukuran
+        potongan.append(teks[mulai:selesai])
+        mulai = selesai - tumpang_tindih
+    return potongan
