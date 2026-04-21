@@ -1,0 +1,3240 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Hi there",
+        "Hello there",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi! How can I assist you today?",
+        "Hey! What can I do for you today?",
+        "Hi there! How can I help you today?",
+        "Hello there! What can I do for you today?",
+        "Greetings! How can I assist you today?",
+        "Hi! How can I help you today?",
+        "Hello! How can I assist you today?",
+        "Hey! What can I do for you today?",
+        "Hi there! How can I help you today?",
+        "Hello there! What can I do for you today?",
+        "Greetings! How can I assist you today?"
+      ],
+      "id": 1
+    },
+    {
+      "tag": "creating",
+      "patterns": [
+        "who creates you?",
+        "who made you?",
+        "who is your creator?",
+        "who is your developer?",
+        "who is your designer?"
+      ],
+      "responses": [
+        "I was created by a team of developers at Mindful Therapist. How can I assist you today?",
+        "My developers at Mindful Therapist created me. How can I help you today?",
+        "I was designed by a team of developers at Mindful Therapist. How can I assist you today?",
+        "My creators at Mindful Therapist developed me. How can I help you today?",
+        "I was made by a team of developers at Mindful Therapist. How can i assist you today?"
+      ],
+      "id": 2
+    },
+    {
+      "tag": "who are you",
+      "patterns": [
+        "who are you",
+        "what are you",
+        "what is your name",
+        "what do you do"
+      ],
+      "responses": [
+        "I am a virtual therapist designed to provide support and guidance. How can I assist you today?",
+        "I am a virtual therapist created to offer help and advice. How can I help you today?",
+        "I am a virtual therapist programmed to provide support and assistance. How can I assist you today?",
+        "I am a virtual therapist designed to offer guidance and encouragement. How can I help you today?",
+        "I am a virtual therapist created to provide support and guidance. How can I assist you today?"
+      ],
+      "id": 3
+    },
+    {
+      "tag": "afternoon",
+      "patterns": [
+        "Good afternoon",
+        "Afternoon",
+        "Good afternoon!",
+        "Afternoon!"
+      ],
+      "responses": [
+        "Good afternoon! How can I help you today?",
+        "Afternoon! How can I assist you today?",
+        "Good afternoon! What can I do for you today?"
+      ],
+      "id": 4
+    },
+    {
+      "tag": "evening",
+      "patterns": [
+        "Good evening",
+        "Evening",
+        "Good evening!",
+        "Evening!"
+      ],
+      "responses": [
+        "Good evening! How can I help you today?",
+        "Evening! How can I assist you today?",
+        "Good evening! What can I do for you today?"
+      ],
+      "id": 5
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Goodbye!",
+        "Bye!",
+        "See you later!"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "Bye! Have a great day!",
+        "See you later! Have a great day!"
+      ],
+      "id": 6
+    },
+    {
+      "tag": "self_doubt",
+      "patterns": [
+        "I doubt myself",
+        "I have self-doubt",
+        "I am doubting myself",
+        "I doubt myself",
+        "I have self-doubt",
+        "I am doubting myself",
+        "I don't believe in myself",
+        "I don't have confidence in myself",
+        "I lack self-confidence",
+        "I lack self-esteem",
+        "I don't believe in myself",
+        "I don't have confidence in myself",
+        "I lack self-confidence",
+        "I lack self-esteem",
+        "I feel insecure",
+        "I feel inadequate"
+      ],
+      "responses": [
+        "It's normal to have moments of self-doubt, but remember that you are capable and worthy.",
+        "Self-doubt is a common feeling, but it's important to remember your strengths and abilities.",
+        "Feeling insecure or inadequate is something many people experience. Remember that you are valuable and capable.",
+        "It's common to feel like a failure or like you're not good enough, but it's important to challenge those negative thoughts."
+      ],
+      "id": 7
+    },
+    {
+      "tag": "morning",
+      "patterns": [
+        "Good morning",
+        "Morning",
+        "Mornin",
+        "Good morning!",
+        "Morning!",
+        "Mornin!"
+      ],
+      "responses": [
+        "Good morning! How can I help you today?",
+        "Morning! How can I assist you today?",
+        "Mornin! What can I do for you today?"
+      ],
+      "id": 8
+    },
+    {
+      "tag": "afternoon",
+      "patterns": [
+        "Good afternoon",
+        "Afternoon",
+        "Good afternoon!",
+        "Afternoon!"
+      ],
+      "responses": [
+        "Good afternoon! How can I help you today?",
+        "Afternoon! How can I assist you today?",
+        "Good afternoon! What can I do for you today?"
+      ],
+      "id": 9
+    },
+    {
+      "tag": "evening",
+      "patterns": [
+        "Good evening",
+        "Evening",
+        "Good evening!",
+        "Evening!"
+      ],
+      "responses": [
+        "Good evening! How can I help you today?",
+        "Evening! How can I assist you today?",
+        "Good evening! What can I do for you today?"
+      ],
+      "id": 10
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Goodbye!",
+        "Bye!",
+        "See you later!"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "Bye! Have a great day!",
+        "See you later! Have a great day!"
+      ],
+      "id": 11
+    },
+    {
+      "tag": "self_doubt",
+      "patterns": [
+        "I doubt myself",
+        "I have self-doubt",
+        "I am doubting myself",
+        "I doubt myself",
+        "I have self-doubt",
+        "I am doubting myself",
+        "I don't believe in myself",
+        "I don't have confidence in myself",
+        "I lack self-confidence",
+        "I lack self-esteem",
+        "I don't believe in myself",
+        "I don't have confidence in myself",
+        "I lack self-confidence",
+        "I lack self-esteem",
+        "I feel insecure",
+        "I feel inadequate",
+        "I feel unworthy",
+        "I feel insecure",
+        "I feel inadequate",
+        "I feel unworthy",
+        "I feel like a failure",
+        "I feel like a loser",
+        "I feel like a failure",
+        "I feel like a loser",
+        "I feel like I'm not good enough",
+        "I feel like I'm not worthy",
+        "I feel like I'm not good enough",
+        "I feel like I'm not worthy",
+        "I feel like I'm not capable",
+        "I feel like I'm not competent",
+        "I feel like I'm not capable",
+        "I feel like I'm not competent",
+        "I feel like I'm not smart enough",
+        "I feel like I'm not intelligent enough",
+        "I feel like I'm not smart enough",
+        "I feel like I'm not intelligent enough",
+        "I feel like I'm not talented enough",
+        "I feel like I'm not skilled enough",
+        "I feel like I'm not talented enough",
+        "I feel like I'm not skilled enough",
+        "I feel like I'm not good at anything",
+        "I feel like I'm not skilled at anything",
+        "I feel like I'm not good at anything",
+        "I feel like I'm not skilled at anything",
+        "I feel like I'm not good at anything",
+        "I feel like I'm not good at anything",
+        "I feel like I'm not good at anything"
+      ],
+      "responses": [
+        "It's normal to have moments of self-doubt, but remember that you are capable and worthy.",
+        "Self-doubt is a common feeling, but it's important to remember your strengths and abilities.",
+        "Feeling insecure or inadequate is something many people experience. Remember that you are valuable and capable.",
+        "It's common to feel like a failure or like you're not good enough, but it's important to challenge those negative thoughts.",
+        "Remember that you are capable, competent, and worthy of success. Don't let self-doubt hold you back.",
+        "Feeling like you're not smart, talented, or skilled enough is a common experience, but it's important to recognize your strengths and abilities.",
+        "It's normal to have moments of self-doubt, but remember that you are capable and worthy.",
+        "Self-doubt is a common feeling, but it's important to remember your strengths and abilities.",
+        "Feeling insecure or inadequate is something many people experience. Remember that you are valuable and capable.",
+        "It's common to feel like a failure or like you're not good enough, but it's important to challenge those negative thoughts.",
+        "Remember that you are capable, competent, and worthy of success. Don't let self-doubt hold you back.",
+        "Feeling like you're not smart, talented, or skilled enough is a common experience, but it's important to recognize your strengths and abilities."
+      ],
+      "id": 12
+    },
+    {
+      "tag": "self_esteem",
+      "patterns": [
+        "I have low self-esteem",
+        "I lack self-esteem",
+        "I don't feel good about myself",
+        "I don't feel confident"
+      ],
+      "responses": [
+        "It's important to remember your worth and value. You are deserving of self-love and self-compassion.",
+        "Low self-esteem is a common experience, but it's important to challenge negative self-perceptions and practice self-compassion.",
+        "Feeling insecure or lacking self-esteem is something many people experience. Remember that you are valuable and deserving of self-love.",
+        "It's normal to have moments of self-doubt, but remember that you are capable and worthy of self-compassion."
+      ],
+      "id": 13
+    },
+    {
+      "tag": "coping_mechanisms",
+      "patterns": [
+        "How can I cope with stress?",
+        "What are some coping mechanisms for anxiety?",
+        "How can I manage my emotions?",
+        "What are some ways to deal with negative thoughts?",
+        "How can I cope with stress?",
+        "What are some coping mechanisms for anxiety?",
+        "How can I manage my emotions?",
+        "What are some ways to deal with negative thoughts?",
+        "How can I cope with stress?",
+        "What are some coping mechanisms for anxiety?",
+        "How can I manage my emotions?",
+        "What are some ways to deal with negative thoughts?",
+        "How can I cope with stress?",
+        "What are some coping mechanisms for anxiety?",
+        "How can I manage my emotions?",
+        "What are some ways to deal with negative thoughts?",
+        "How can I cope with stress?",
+        "What are some coping mechanisms for anxiety?",
+        "How can I manage my emotions?",
+        "What are some ways to deal with negative thoughts?",
+        "How can I cope with stress?",
+        "What are some coping mechanisms for anxiety?",
+        "How can I manage my emotions?",
+        "What are some ways to deal with negative thoughts?",
+        "How can I cope with stress?",
+        "What are some coping mechanisms for anxiety?",
+        "How can I manage my emotions?",
+        "What are some ways to deal with negative thoughts?",
+        "How can I cope with stress?",
+        "What are some coping mechanisms for anxiety?",
+        "How can I manage my emotions?",
+        "What are some ways to deal with negative thoughts?",
+        "How can I cope with stress?",
+        "What are some coping mechanisms for anxiety?",
+        "How can I manage my emotions?",
+        "What are some ways to deal with negative thoughts?",
+        "How can I cope with stress?",
+        "What are some coping mechanisms for anxiety?",
+        "How can I manage my emotions?",
+        "What are some ways to deal with negative thoughts?",
+        "How can I cope with stress?",
+        "What are some coping mechanisms for anxiety?",
+        "How can I manage my emotions?",
+        "What are some ways to deal with negative thoughts?",
+        "How can I cope with stress?",
+        "What are some coping mechanisms for anxiety?",
+        "How can I manage my emotions?",
+        "What are some ways to deal with negative thoughts?",
+        "How can I cope with stress?",
+        "What are some coping mechanisms for anxiety?"
+      ],
+      "responses": [
+        "There are many coping mechanisms for stress, anxiety, and negative thoughts. Some examples include deep breathing, mindfulness, positive affirmations, relaxation techniques, guided meditation, exercise for mood, distraction techniques, thought reframing, and therapy techniques.",
+        "Coping with stress, anxiety, and negative thoughts can be challenging, but there are many techniques that can help. Some examples include deep breathing, mindfulness, positive affirmations, relaxation techniques, guided meditation, exercise for mood, distraction techniques, thought reframing, and therapy techniques.",
+        "Managing stress, anxiety, and negative thoughts can be difficult, but there are many coping mechanisms that can help. Some examples include deep breathing, mindfulness, positive affirmations, relaxation techniques, guided meditation, exercise for mood, distraction techniques, thought reframing, and therapy techniques.",
+        "Dealing with stress, anxiety, and negative thoughts can be overwhelming, but there are many coping mechanisms that can provide relief. Some examples include deep breathing, mindfulness, positive affirmations, relaxation techniques, guided meditation, exercise for mood, distraction techniques, thought reframing, and therapy techniques."
+      ],
+      "id": 14
+    },
+    {
+      "tag": "self_love",
+      "patterns": [
+        "How can I practice self-love?",
+        "I want to learn about self-love",
+        "What are some self-love techniques?",
+        "How do I start loving myself?"
+      ],
+      "responses": [
+        "Practicing self-love involves being kind to yourself, setting healthy boundaries, and recognizing your worth.",
+        "Self-love can be cultivated through positive affirmations, self-care routines, and surrounding yourself with supportive people.",
+        "To start loving yourself, focus on your strengths, practice gratitude, and engage in activities that bring you joy.",
+        "Remember that self-love is a journey. Be patient with yourself and celebrate your progress along the way."
+      ],
+      "id": 15
+    },
+    {
+      "tag": "mindfulness",
+      "patterns": [
+        "How can I practice mindfulness?",
+        "What are some mindfulness techniques?",
+        "I want to learn about mindfulness",
+        "How do I start being more mindful?"
+      ],
+      "responses": [
+        "Practicing mindfulness involves being present in the moment, observing your thoughts without judgment, and focusing on your breath.",
+        "Mindfulness techniques include deep breathing, body scans, guided meditation, and mindful eating.",
+        "To start being more mindful, try incorporating mindfulness practices into your daily routine, such as taking short breaks to focus on your breath or surroundings.",
+        "Remember that mindfulness is a skill that can be developed over time. Be patient with yourself as you explore different techniques and find what works best for you."
+      ],
+      "id": 16
+    },
+    {
+      "tag": "positive_affirmation",
+      "patterns": [
+        "How can I use positive affirmations?",
+        "What are some positive affirmations?",
+        "I want to learn about positive affirmations",
+        "How do I start using positive affirmations?"
+      ],
+      "responses": [
+        "Positive affirmations are statements that can help challenge negative self-perceptions and promote self-compassion.",
+        "Some examples of positive affirmations include 'I am worthy of love and respect,' 'I am capable of achieving my goals,' and 'I am deserving of happiness and success.'",
+        "To start using positive affirmations, choose statements that resonate with you and repeat them regularly, especially during times of self-doubt or insecurity.",
+        "Remember that positive affirmations can help reframe negative thoughts and build self-confidence. Incorporate them into your daily routine to cultivate a positive mindset."
+      ],
+      "id": 17
+    },
+    {
+      "tag": "relaxation_techniques",
+      "patterns": [
+        "How can I relax?",
+        "What are some relaxation techniques?",
+        "I want to learn about relaxation",
+        "How do I start relaxing?"
+      ],
+      "responses": [
+        "Relaxation techniques can help reduce stress and promote a sense of calm. Some examples include deep breathing, progressive muscle relaxation, guided imagery, and visualization.",
+        "To relax, try incorporating relaxation techniques into your daily routine, such as taking deep breaths, practicing mindfulness, or engaging in activities that bring you joy.",
+        "Remember that relaxation is an important part of self-care. Prioritize time for relaxation to recharge and rejuvenate your mind and body.",
+        "Finding ways to relax can help improve your overall well-being and reduce feelings of stress and anxiety. Experiment with different techniques to find what works best for you."
+      ],
+      "id": 18
+    },
+    {
+      "tag": "guided_meditation",
+      "patterns": [
+        "How can I meditate?",
+        "What are some guided meditation techniques?",
+        "I want to learn about meditation",
+        "How do I start meditating?"
+      ],
+      "responses": [
+        "Guided meditation involves focusing on your breath, body, or surroundings while listening to a recorded meditation script.",
+        "Some benefits of guided meditation include stress reduction, improved focus, and increased self-awareness.",
+        "To start meditating, find a quiet space, sit or lie down comfortably, and follow along with a guided meditation recording.",
+        "Remember that meditation is a practice that can help calm your mind and reduce feelings of stress and anxiety. Start with short sessions and gradually increase the duration as you become more comfortable."
+      ],
+      "id": 19
+    },
+    {
+      "tag": "exercise_for_mood",
+      "patterns": [
+        "How can exercise improve my mood?",
+        "What are some mood-boosting exercises?",
+        "I want to learn about exercise and mood",
+        "How do I start exercising for my mood?"
+      ],
+      "responses": [
+        "Exercise can help release endorphins, reduce stress hormones, and improve mood and mental well-being.",
+        "Some mood-boosting exercises include walking, jogging, yoga, dancing, and strength training.",
+        "To start exercising for your mood, choose activities that you enjoy and can easily incorporate into your daily routine.",
+        "Remember that regular physical activity can have a positive impact on your mental health and overall well-being. Find ways to stay active that work for you and make you feel good."
+      ],
+      "id": 20
+    },
+    {
+      "tag": "distraction_techniques",
+      "patterns": [
+        "How can I distract myself from negative thoughts?",
+        "What are some distraction techniques?",
+        "I want to learn about distraction",
+        "How do I start using distraction techniques?"
+      ],
+      "responses": [
+        "Distraction techniques can help shift your focus away from negative thoughts and emotions, allowing you to redirect your attention to more positive or neutral activities.",
+        "Some examples of distraction techniques include engaging in hobbies, spending time with loved ones, listening to music, watching a movie, or going for a walk.",
+        "To start using distraction techniques, identify activities that you enjoy and find engaging. Use them as a way to break the cycle of negative thinking and shift your focus to more positive experiences.",
+        "Remember that distraction can be a helpful tool for managing stress, anxiety, and negative thoughts. Experiment with different techniques to find what works best for you."
+      ],
+      "id": 21
+    },
+    {
+      "tag": "thought_reframing",
+      "patterns": [
+        "How can I reframe negative thoughts?",
+        "What are some thought reframing techniques?",
+        "I want to learn about thought reframing",
+        "How do I start reframing my thoughts?"
+      ],
+      "responses": [
+        "Thought reframing involves challenging negative or unhelpful thoughts and replacing them with more balanced or positive perspectives.",
+        "Some thought reframing techniques include cognitive restructuring, identifying cognitive distortions, and practicing self-compassion.",
+        "To start reframing your thoughts, pay attention to your internal dialogue and challenge negative or self-critical beliefs. Replace them with more realistic and compassionate statements.",
+        "Remember that thought reframing can help change your mindset and improve your mental well-being. Practice self-awareness and self-compassion as you work on challenging negative thought patterns."
+      ],
+      "id": 22
+    },
+    {
+      "tag": "therapy_techniques",
+      "patterns": [
+        "How can therapy help me?",
+        "What are some therapy techniques?",
+        "I want to learn about therapy",
+        "How do I start therapy?"
+      ],
+      "responses": [
+        "Therapy can provide a safe and supportive space to explore your thoughts, feelings, and behaviors, and develop coping strategies for managing stress, anxiety, and other mental health concerns.",
+        "Some therapy techniques include cognitive-behavioral therapy (CBT), dialectical behavior therapy (DBT), mindfulness-based therapy, and psychodynamic therapy.",
+        "To start therapy, consider reaching out to a licensed mental health professional who can help you address your concerns and develop a treatment plan tailored to your needs.",
+        "Remember that therapy can be a valuable resource for improving your mental health and well-being. Don't hesitate to seek support from a therapist or counselor if you feel overwhelmed or in need of guidance."
+      ],
+      "id": 23
+    },
+    {
+      "tag": "anxiety_management",
+      "patterns": [
+        "How can I manage anxiety?",
+        "What are some anxiety management techniques?",
+        "I want to learn about anxiety management",
+        "How do I start managing my anxiety?"
+      ],
+      "responses": [
+        "Anxiety management involves identifying triggers, practicing relaxation techniques, challenging negative thoughts, and developing coping strategies to reduce anxiety symptoms.",
+        "Some anxiety management techniques include deep breathing, progressive muscle relaxation, mindfulness meditation, exposure therapy, and cognitive-behavioral therapy (CBT).",
+        "To start managing your anxiety, create a self-care routine, engage in stress-reducing activities, and seek support from a therapist or counselor.",
+        "Remember that anxiety is a common experience, but there are effective strategies for managing and reducing anxiety symptoms. Explore different techniques to find what works best for you."
+      ],
+      "id": 24
+    },
+    {
+      "tag": "depression_management",
+      "patterns": [
+        "How can I manage depression?",
+        "What are some depression management techniques?",
+        "I want to learn about depression management",
+        "How do I start managing my depression?",
+        "How can I cope with depression?",
+        "What are some coping strategies for depression?",
+        "I want to learn about coping with depression"
+      ],
+      "responses": [
+        "Depression management involves self-care, therapy, medication, and lifestyle changes to reduce symptoms and improve overall well-being.",
+        "Some depression management techniques include cognitive-behavioral therapy (CBT), interpersonal therapy, medication, exercise, and social support.",
+        "To start managing your depression, prioritize self-care, seek professional help, and engage in activities that bring you joy and fulfillment.",
+        "Remember that depression is a treatable condition, and there are effective strategies for managing symptoms and improving your quality of life. Don't hesitate to reach out for support and guidance."
+      ],
+      "id": 25
+    },
+    {
+      "tag": "stress_management",
+      "patterns": [
+        "How can I manage stress?",
+        "What are some stress management techniques?",
+        "I want to learn about stress management",
+        "How do I start managing my stress?"
+      ],
+      "responses": [
+        "Stress management involves identifying stressors, practicing relaxation techniques, setting boundaries, and developing coping strategies to reduce stress levels.",
+        "Some stress management techniques include deep breathing, progressive muscle relaxation, time management, setting priorities, and seeking social support.",
+        "To start managing your stress, create a self-care routine, engage in stress-reducing activities, and practice mindfulness and relaxation techniques.",
+        "Remember that stress is a normal part of life, but there are effective strategies for managing and reducing stress levels. Prioritize self-care and seek support from loved ones or a mental health professional."
+      ],
+      "id": 26
+    },
+    {
+      "tag": "mental_health_checkin",
+      "patterns": [
+        "How can I check in on my mental health?",
+        "What are some mental health check-in techniques?",
+        "I want to learn about mental health check-ins",
+        "How do I start checking in on my mental health?",
+        "How can I check in on my mental health?",
+        "What are some mental health check-in techniques?",
+        "I want to learn about mental health check-ins",
+        "How do I start checking in on my mental health?",
+        "What are some ways to monitor my mental health?",
+        "How can I assess my mental well-being?",
+        "What are some self-assessment techniques for mental health?",
+        "How do I know if my mental health is improving?",
+        "What are some signs of good mental health?",
+        "How can I track my mental health progress?",
+        "What are some tools for mental health check-ins?",
+        "How often should I check in on my mental health?",
+        "What are some questions to ask myself during a mental health check-in?",
+        "How can I create a mental health check-in routine?",
+        "What are some benefits of regular mental health check-ins?",
+        "How can I use journaling for mental health check-ins?",
+        "What are some apps for mental health check-ins?",
+        "How can I involve others in my mental health check-ins?",
+        "What are some professional resources for mental health check-ins?",
+        "How can I make mental health check-ins a habit?"
+      ],
+      "responses": [
+        "Mental health check-ins involve self-reflection, self-awareness, and monitoring your thoughts, feelings, and behaviors to assess your mental well-being.",
+        "Some mental health check-in techniques include journaling, mindfulness practices, mood tracking, and self-assessment tools.",
+        "To start checking in on your mental health, set aside time for self-reflection, ask yourself questions about your thoughts and emotions, and track your mood and well-being over time.",
+        "Remember that mental health check-ins are an important part of self-care and well-being. Regularly assess your mental health, seek support when needed, and prioritize activities that promote mental wellness.",
+        "Mental health check-ins involve self-reflection, self-awareness, and monitoring your thoughts, feelings, and behaviors to assess your mental well-being.",
+        "Some mental health check-in techniques include journaling, mindfulness practices, mood tracking, and self-assessment tools.",
+        "To start checking in on your mental health, set aside time for self-reflection, ask yourself questions about your thoughts and emotions, and track your mood and well-being over time."
+      ],
+      "id": 27
+    },
+    {
+      "tag": "talking_about_feelings",
+      "patterns": [
+        "How can I talk about my feelings?",
+        "What are some ways to express my emotions?",
+        "I want to learn about talking about feelings",
+        "How do I start talking about my feelings?",
+        "How can I talk about my feelings?",
+        "What are some ways to express my emotions?",
+        "I want to learn about talking about feelings",
+        "How do I start talking about my feelings?",
+        "How can I communicate my emotions?",
+        "What are some strategies for expressing my feelings?",
+        "I want to learn about emotional communication",
+        "How do I start communicating my emotions?",
+        "How can I share my feelings with others?",
+        "What are some tips for talking about my emotions?",
+        "I want to learn about sharing feelings",
+        "How do I start sharing my emotions?",
+        "How can I express my feelings effectively?",
+        "What are some techniques for talking about my emotions?",
+        "I want to learn about emotional expression",
+        "How do I start expressing my emotions?",
+        "How can I open up about my feelings?",
+        "What are some ways to talk about my emotions?",
+        "I want to learn about emotional openness",
+        "How do I start opening up about my feelings?"
+      ],
+      "responses": [
+        "Talking about your feelings involves self-awareness, emotional expression, and effective communication with others to share your thoughts and emotions.",
+        "Some ways to talk about your feelings include journaling, talking to a trusted friend or family member, seeking therapy or counseling, and practicing self-compassion.",
+        "To start talking about your feelings, identify your emotions, find a safe and supportive space to express yourself, and practice active listening when communicating with others.",
+        "Remember that expressing your feelings is an important part of emotional well-being. Be honest with yourself and others, seek support when needed, and prioritize open and honest communication."
+      ],
+      "id": 28
+    },
+    {
+      "tag": "reassurance",
+      "patterns": [
+        "I need reassurance",
+        "Can you reassure me?",
+        "I'm seeking reassurance",
+        "I need some reassurance",
+        "Can you provide reassurance?",
+        "I'm looking for reassurance",
+        "I need reassurance",
+        "Can you reassure me?",
+        "I'm seeking reassurance",
+        "I need some reassurance",
+        "Can you provide reassurance?",
+        "I'm looking for reassurance",
+        "I need reassurance",
+        "Can you reassure me?",
+        "I'm seeking reassurance",
+        "I need some reassurance",
+        "Can you provide reassurance?",
+        "I'm looking for reassurance",
+        "I need reassurance",
+        "Can you reassure me?",
+        "I'm seeking reassurance",
+        "I need some reassurance",
+        "Can you provide reassurance?",
+        "I'm looking for reassurance",
+        "I need reassurance",
+        "Can you reassure me?",
+        "I'm seeking reassurance",
+        "I need some reassurance",
+        "Can you provide reassurance?",
+        "I'm looking for reassurance",
+        "I need reassurance",
+        "Can you reassure me?",
+        "I'm seeking reassurance",
+        "I need some reassurance",
+        "Can you provide reassurance?",
+        "I'm looking for reassurance",
+        "I need reassurance",
+        "Can you reassure me?",
+        "I'm seeking reassurance",
+        "I need some reassurance",
+        "Can you provide reassurance?",
+        "I'm looking for reassurance",
+        "I need reassurance",
+        "Can you reassure me?",
+        "I'm seeking reassurance",
+        "I need some reassurance",
+        "Can you provide reassurance?",
+        "I'm looking for reassurance",
+        "I need reassurance",
+        "Can you reassure me?",
+        "I'm seeking reassurance",
+        "I need some reassurance",
+        "Can you provide reassurance?",
+        "I'm looking for reassurance",
+        "I need reassurance",
+        "Can you reassure me?",
+        "I'm seeking reassurance",
+        "I need some reassurance",
+        "Can you provide reassurance?",
+        "I'm looking for reassurance",
+        "I need reassurance",
+        "Can you reassure me?",
+        "I'm seeking reassurance",
+        "I need some reassurance"
+      ],
+      "responses": [
+        "It's normal to seek reassurance from others, but remember that true confidence comes from within. You are capable",
+        "Seeking reassurance is a common experience, but it's important to build self-confidence and trust in your abilities.",
+        "Feeling the need for reassurance is a natural response to uncertainty or self-doubt. Remember that you are capable and worthy of self-compassion.",
+        "Remember that seeking reassurance is a common behavior, but it's important to develop self-confidence and trust in your abilities."
+      ],
+      "id": 29
+    },
+    {
+      "tag": "comforting_words",
+      "patterns": [
+        "I need comforting words",
+        "Can you provide comforting words?",
+        "I'm seeking comforting words",
+        "I need some comforting words",
+        "Can you offer comforting words?",
+        "I'm looking for comforting words",
+        "I need comforting words",
+        "Can you provide comforting words?",
+        "I'm seeking comforting words",
+        "I need some comforting words",
+        "Can you offer comforting words?",
+        "I'm looking for comforting words",
+        "I need comforting words",
+        "Can you provide comforting words?",
+        "I'm seeking comforting words",
+        "I need some comforting words",
+        "Can you offer comforting words?",
+        "I'm looking for comforting words",
+        "I need comforting words",
+        "Can you provide comforting words?",
+        "I'm seeking comforting words",
+        "I need some comforting words",
+        "Can you offer comforting words?",
+        "I'm looking for comforting words",
+        "I need comforting words",
+        "Can you provide comforting words?",
+        "I'm seeking comforting words",
+        "I need some comforting words",
+        "Can you offer comforting words?",
+        "I'm looking for comforting words",
+        "I need comforting words",
+        "Can you provide comforting words?",
+        "I'm seeking comforting words",
+        "I need some comforting words",
+        "Can you offer comforting words?",
+        "I'm looking for comforting words",
+        "I need comforting words",
+        "Can you provide comforting words?",
+        "I'm seeking comforting words",
+        "I need some comforting words",
+        "Can you offer comforting words?",
+        "I'm looking for comforting words",
+        "I need comforting words",
+        "Can you provide comforting words?",
+        "I'm seeking comforting words",
+        "I need some comforting words",
+        "Can you offer comforting words?",
+        "I'm looking for comforting words",
+        "I need comforting words",
+        "Can you provide comforting words?",
+        "I'm seeking comforting words",
+        "I need some comforting words",
+        "Can you offer comforting words?",
+        "I'm looking for comforting words",
+        "I need comforting words",
+        "Can you provide comforting words?",
+        "I'm seeking comforting words",
+        "I need some comforting words",
+        "Can you offer comforting words?",
+        "I'm looking for comforting words",
+        "I need comforting words",
+        "Can you provide comforting words?",
+        "I'm seeking comforting words"
+      ],
+      "responses": [
+        "Comforting words can provide solace and support during difficult times. Remember that you are not alone and that you are deserving of compassion and care.",
+        "Seeking comforting words is a natural response to emotional distress. Remember that you are valued and worthy of kindness and understanding.",
+        "Feeling the need for comforting words is a common experience, especially during challenging moments. Remember that you are deserving of comfort and support.",
+        "Remember that seeking comforting words is a normal response to emotional distress. Be gentle with yourself and allow yourself to receive care and compassion."
+      ],
+      "id": 30
+    },
+    {
+      "tag": "encouragement",
+      "patterns": [
+        "I need encouragement",
+        "Can you provide encouragement?",
+        "I'm seeking encouragement",
+        "I need some encouragement",
+        "Can you offer encouragement?",
+        "I'm looking for encouragement",
+        "I need encouragement",
+        "Can you provide encouragement?",
+        "I'm seeking encouragement",
+        "I need some encouragement",
+        "Can you offer encouragement?",
+        "I'm looking for encouragement",
+        "I need encouragement",
+        "Can you provide encouragement?",
+        "I'm seeking encouragement",
+        "I need some encouragement",
+        "Can you offer encouragement?",
+        "I'm looking for encouragement",
+        "I need encouragement",
+        "Can you provide encouragement?",
+        "I'm seeking encouragement",
+        "I need some encouragement",
+        "Can you offer encouragement?",
+        "I'm looking for encouragement",
+        "I need encouragement",
+        "Can you provide encouragement?",
+        "I'm seeking encouragement",
+        "I need some encouragement",
+        "Can you offer encouragement?",
+        "I'm looking for encouragement",
+        "I need encouragement",
+        "Can you provide encouragement?",
+        "I'm seeking encouragement",
+        "I need some encouragement",
+        "Can you offer encouragement?",
+        "I'm looking for encouragement",
+        "I need encouragement",
+        "Can you provide encouragement?",
+        "I'm seeking encouragement",
+        "I need some encouragement",
+        "Can you offer encouragement?",
+        "I'm looking for encouragement",
+        "I need encouragement",
+        "Can you provide encouragement?",
+        "I'm seeking encouragement",
+        "I need some encouragement",
+        "Can you offer encouragement?",
+        "I'm looking for encouragement",
+        "I need encouragement",
+        "Can you provide encouragement?",
+        "I'm seeking encouragement",
+        "I need some encouragement",
+        "Can you offer encouragement?",
+        "I'm looking for encouragement",
+        "I need encouragement",
+        "Can you provide encouragement?",
+        "I'm seeking encouragement",
+        "I need some encouragement",
+        "Can you offer encouragement?",
+        "I'm looking for encouragement",
+        "I need encouragement",
+        "Can you provide encouragement?",
+        "I'm seeking encouragement",
+        "I need some encouragement",
+        "Can you offer encouragement?",
+        "I'm looking for encouragement",
+        "I need encouragement",
+        "Can you provide encouragement?",
+        "I'm seeking encouragement",
+        "I need some encouragement",
+        "Can you offer encouragement?"
+      ],
+      "responses": [
+        "Encouragement can provide motivation and support during challenging times. Remember that you are capable and deserving of success.",
+        "Seeking encouragement is a natural response to self-doubt or uncertainty. Remember that you have the strength and resilience to overcome obstacles.",
+        "Feeling the need for encouragement is a common experience, especially when facing difficult situations. Remember that you are capable and worthy of support.",
+        "Remember that seeking encouragement is a normal response to self-doubt or challenges. Be kind to yourself and believe in your abilities and potential."
+      ],
+      "id": 31
+    },
+    {
+      "tag": "listening",
+      "patterns": [
+        "I need someone to listen",
+        "Can you listen to me?",
+        "I'm seeking someone to listen",
+        "I need someone to talk to",
+        "Can you provide a listening ear?",
+        "I'm looking for someone to listen",
+        "I need someone to listen",
+        "Can you listen to me?",
+        "I'm seeking someone to listen",
+        "I need someone to talk to",
+        "Can you provide a listening ear?",
+        "I'm looking for someone to listen",
+        "I need someone to listen",
+        "Can you listen to me?",
+        "I'm seeking someone to listen",
+        "I need someone to talk to",
+        "Can you provide a listening ear?",
+        "I'm looking for someone to listen",
+        "I need someone to listen",
+        "Can you listen to me?",
+        "I'm seeking someone to listen",
+        "I need someone to talk to",
+        "Can you provide a listening ear?",
+        "I'm looking for someone to listen",
+        "I need someone to listen",
+        "Can you listen to me?",
+        "I'm seeking someone to listen",
+        "I need someone to talk to",
+        "Can you provide a listening ear?",
+        "I'm looking for someone to listen",
+        "I need someone to listen",
+        "Can you listen to me?",
+        "I'm seeking someone to listen",
+        "I need someone to talk to",
+        "Can you provide a listening ear?",
+        "I'm looking for someone to listen",
+        "I need someone to listen",
+        "Can you listen to me?",
+        "I'm seeking someone to listen",
+        "I need someone to talk to",
+        "Can you provide a listening ear?",
+        "I'm looking for someone to listen",
+        "I need someone to listen",
+        "Can you listen to me?",
+        "I'm seeking someone to listen",
+        "I need someone to talk to",
+        "Can you provide a listening ear?",
+        "I'm looking for someone to listen",
+        "I need someone to listen",
+        "Can you listen to me?",
+        "I'm seeking someone to listen",
+        "I need someone to talk to",
+        "Can you provide a listening ear?",
+        "I'm looking for someone to listen",
+        "I need someone to listen",
+        "Can you listen to me?",
+        "I'm seeking someone to listen"
+      ],
+      "responses": [
+        "Listening is an important part of communication and support. Remember that you are not alone, and it's okay to seek help and share your thoughts and feelings.",
+        "Seeking someone to listen is a natural response to needing support or connection. Remember that your experiences and emotions are valid and deserving of attention.",
+        "Feeling the need for someone to listen is a common experience, especially during challenging moments. Remember that it's okay to reach out for help and share your thoughts and feelings.",
+        "Remember that seeking someone to listen is a normal response to needing support or understanding. Be gentle with yourself and allow yourself to express your thoughts and emotions."
+      ],
+      "id": 32
+    },
+    {
+      "tag": "checking_in",
+      "patterns": [
+        "I need someone to check in on me",
+        "Can you check in on me?",
+        "I'm seeking someone to check in on me",
+        "I need someone to reach out",
+        "Can you provide a check-in?",
+        "I'm looking for someone to check in",
+        "I need someone to check in on me",
+        "Can you check in on me?",
+        "I'm seeking someone to check in on me",
+        "I need someone to reach out",
+        "Can you provide a check-in?",
+        "I'm looking for someone to check in",
+        "I need someone to check in on me",
+        "Can you check in on me?",
+        "I'm seeking someone to check in on me",
+        "I need someone to reach out",
+        "Can you provide a check-in?",
+        "I'm looking for someone to check in",
+        "I need someone to check in on me",
+        "Can you check in on me?",
+        "I'm seeking someone to check in on me",
+        "I need someone to reach out",
+        "Can you provide a check-in?",
+        "I'm looking for someone to check in",
+        "I need someone to check in on me",
+        "Can you check in on me?",
+        "I'm seeking someone to check in on me",
+        "I need someone to reach out",
+        "Can you provide a check-in?",
+        "I'm looking for someone to check in",
+        "I need someone to check in on me",
+        "Can you check in on me?",
+        "I'm seeking someone to check in on me",
+        "I need someone to reach out",
+        "Can you provide a check-in?",
+        "I'm looking for someone to check in",
+        "I need someone to check in on me",
+        "Can you check in on me?",
+        "I'm seeking someone to check in on me",
+        "I need someone to reach out",
+        "Can you provide a check-in?",
+        "I'm looking for someone to check in",
+        "I need someone to check in on me",
+        "Can you check in on me?",
+        "I'm seeking someone to check in on me",
+        "I need someone to reach out",
+        "Can you provide a check-in?",
+        "I'm looking for someone to check in",
+        "I need someone to check in on me"
+      ],
+      "responses": [
+        "Checking in on yourself or others is an important part of self-care and support. Remember that it's okay to reach out for help and connect with others during challenging times.",
+        "Seeking someone to check in is a natural response to needing support or connection. Remember that your well-being is important, and it's okay to ask for help when needed.",
+        "Feeling the need for someone to check in is a common experience, especially during times of stress or uncertainty. Remember that it's okay to seek support and reach out to others for help.",
+        "Remember that seeking someone to check in is a normal response to needing support or connection. Be kind to yourself and prioritize your well-being by reaching out for help when needed."
+      ],
+      "id": 33
+    },
+    {
+      "tag": "grief",
+      "patterns": [
+        "How can I cope with grief?",
+        "What are some grief coping strategies?",
+        "I want to learn about grief",
+        "How do I start coping with grief?",
+        "How can I deal with loss?",
+        "What are some strategies for dealing with loss?",
+        "I want to learn about loss and grief",
+        "How do I start dealing with loss?"
+      ],
+      "responses": [
+        "Coping with grief involves allowing yourself to feel your emotions, seeking support from loved ones, and engaging in self-care activities to process your loss.",
+        "Some grief coping strategies include talking about your feelings, honoring the memory of your loved one, seeking professional help, and practicing self-compassion.",
+        "To start coping with grief, give yourself permission to grieve, express your emotions, and create rituals or routines that help you remember and honor your loved one.",
+        "Remember that grief is a natural response to loss, and it's important to be patient and compassionate with yourself as you navigate the grieving process. Seek support and take care of yourself during this difficult time."
+      ],
+      "id": 34
+    },
+    {
+      "tag": "loss",
+      "patterns": [
+        "How can I cope with loss?",
+        "What are some loss coping strategies?",
+        "I want to learn about loss",
+        "How do I start coping with loss?",
+        "How can I deal with grief?",
+        "What are some strategies for dealing with grief?",
+        "I want to learn about grief and loss",
+        "How do I start dealing with grief?"
+      ],
+      "responses": [
+        "Coping with loss involves allowing yourself to grieve, seeking support from loved ones, and engaging in self-care activities to process your emotions and memories.",
+        "Some loss coping strategies include talking about your feelings, creating a memory book or journal, seeking professional help, and practicing self-compassion.",
+        "To start coping with loss, give yourself permission to mourn, express your emotions, and find ways to honor and remember the person or thing you have lost.",
+        "Remember that loss is a natural part of life, and it's important to be patient and kind to yourself as you navigate the grieving process. Seek support and take care of yourself during this challenging time."
+      ],
+      "id": 35
+    },
+    {
+      "tag": "trauma",
+      "patterns": [
+        "How can I heal from trauma?",
+        "What are some trauma healing techniques?",
+        "I want to learn about trauma recovery",
+        "How do I start healing from trauma?",
+        "How can I cope with traumatic experiences?",
+        "What are some strategies for coping with trauma?",
+        "I want to learn about trauma and recovery",
+        "How do I start coping with trauma?"
+      ],
+      "responses": [
+        "Healing from trauma involves processing your emotions, seeking professional help, and engaging in self-care activities to address the impact of the traumatic experience on your mental and emotional well-being.",
+        "Some trauma healing techniques include therapy, mindfulness practices, creative expression, and self-compassion.",
+        "To start healing from trauma, give yourself permission to feel your emotions, seek support from a therapist or counselor, and practice self-care activities that promote healing and recovery.",
+        "Remember that healing from trauma is a journey that takes time and patience. Be gentle with yourself, seek support when needed, and prioritize activities that promote your well-being and healing."
+      ],
+      "id": 36
+    },
+    {
+      "tag": "healing",
+      "patterns": [
+        "How can I heal emotionally?",
+        "What are some emotional healing techniques?",
+        "I want to learn about emotional healing",
+        "How do I start healing emotionally?",
+        "How can I heal from past experiences?",
+        "What are some strategies for healing from past experiences?",
+        "I want to learn about emotional healing and recovery",
+        "How do I start healing from past experiences?"
+      ],
+      "responses": [
+        "Emotional healing involves processing your emotions, seeking support, and engaging in self-care activities to address past experiences and promote healing and growth.",
+        "Some emotional healing techniques include therapy, journaling, mindfulness practices, and self-compassion.",
+        "To start healing emotionally, give yourself permission to feel your emotions, seek support from loved ones or a therapist, and engage in activities that promote self-care and healing.",
+        "Remember that emotional healing is a process that takes time and self-compassion. Be patient with yourself, seek support when needed, and prioritize activities that nurture your emotional well-being."
+      ],
+      "id": 37
+    },
+    {
+      "tag": "hope",
+      "patterns": [
+        "How can I find hope?",
+        "What are some hope-building techniques?",
+        "I want to learn about hope",
+        "How do I start finding hope?",
+        "How can I stay hopeful?",
+        "What are some strategies for staying hopeful?",
+        "I want to learn about hope and resilience",
+        "How do I start staying hopeful?"
+      ],
+      "responses": [
+        "Finding hope involves cultivating a positive mindset, seeking support, and engaging in activities that bring joy and fulfillment to your life.",
+        "Some hope-building techniques include practicing gratitude, setting goals, connecting with others, and engaging in self-care activities.",
+        "To start finding hope, focus on the present moment, practice self-compassion, and engage in activities that promote positivity and well-being.",
+        "Remember that hope is a powerful force that can help you navigate challenges and setbacks. Cultivate hope by focusing on the positive aspects of your life and seeking support when needed."
+      ],
+      "id": 38
+    },
+    {
+      "tag": "building_resilience",
+      "patterns": [
+        "How can I build resilience?",
+        "What are some resilience-building techniques?",
+        "I want to learn about resilience",
+        "How do I start building resilience?",
+        "How can I bounce back from setbacks?",
+        "What are some strategies for bouncing back from setbacks?",
+        "I want to learn about resilience and strength",
+        "How do I start bouncing back from setbacks?"
+      ],
+      "responses": [
+        "Building resilience involves developing coping skills, seeking support, and engaging in activities that promote mental and emotional well-being.",
+        "Some resilience-building techniques include practicing self-care, setting boundaries, cultivating self-compassion, and developing problem-solving skills.",
+        "To start building resilience, focus on your strengths, practice self-awareness, and engage in activities that promote growth and self-improvement.",
+        "Remember that resilience is a skill that can be developed and strengthened over time. Be patient with yourself, seek support when needed, and prioritize activities that nurture your resilience and well-being."
+      ],
+      "id": 39
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "How can I stay motivated?",
+        "What are some motivation techniques?",
+        "I want to learn about motivation",
+        "How do I start staying motivated?",
+        "How can I find inspiration?",
+        "What are some strategies for finding inspiration?",
+        "I want to learn about motivation and inspiration",
+        "How do I start finding inspiration?"
+      ],
+      "responses": [
+        "Staying motivated involves setting goals, creating a routine, seeking support, and engaging in activities that bring you joy and fulfillment.",
+        "Some motivation techniques include creating a vision board, setting SMART goals, practicing self-compassion, and celebrating small wins.",
+        "To start staying motivated, identify your values and priorities, break down your goals into manageable steps, and engage in activities that align with your passions and interests.",
+        "Remember that motivation is a dynamic process that requires effort and commitment. Stay focused on your goals, seek support when needed, and prioritize activities that inspire and energize you."
+      ],
+      "id": 40
+    },
+    {
+      "tag": "procrastination",
+      "patterns": [
+        "How can I overcome procrastination?",
+        "What are some procrastination-busting techniques?",
+        "I want to learn about overcoming procrastination",
+        "How do I start overcoming procrastination?",
+        "How can I stop procrastinating?",
+        "What are some strategies for stopping procrastination?",
+        "I want to learn about procrastination and productivity",
+        "How do I start stopping procrastination?"
+      ],
+      "responses": [
+        "Overcoming procrastination involves identifying triggers, setting goals, creating a routine, and developing strategies to manage distractions and increase productivity.",
+        "Some procrastination-busting techniques include breaking tasks into smaller steps, using time management tools, practicing self-compassion, and setting deadlines.",
+        "To start overcoming procrastination, prioritize your tasks, create a schedule, and engage in activities that promote focus and concentration.",
+        "Remember that procrastination is a common experience, but there are effective strategies for managing and reducing procrastination. Stay focused on your goals, seek support when needed, and practice self-discipline and time management."
+      ],
+      "id": 41
+    },
+    {
+      "tag": "overcoming_fear",
+      "patterns": [
+        "How can I overcome fear?",
+        "What are some fear-conquering techniques?",
+        "I want to learn about overcoming fear",
+        "How do I start overcoming fear?",
+        "How can I face my fears?",
+        "What are some strategies for facing fears?",
+        "I want to learn about fear and courage",
+        "How do I start facing fears?"
+      ],
+      "responses": [
+        "Overcoming fear involves identifying triggers, practicing self-compassion, seeking support, and engaging in activities that promote courage and resilience.",
+        "Some fear-conquering techniques include exposure therapy, mindfulness practices, positive self-talk, and visualization exercises.",
+        "To start overcoming fear, acknowledge your emotions, challenge negative thoughts, and gradually expose yourself to the things that trigger your fears.",
+        "Remember that fear is a natural response to uncertainty or danger, but there are effective strategies for managing and overcoming fear. Be patient with yourself, seek support when needed, and practice self-care and self-compassion."
+      ],
+      "id": 42
+    },
+    {
+      "tag": "dealing_with_regret",
+      "patterns": [
+        "How can I deal with regret?",
+        "What are some regret-handling techniques?",
+        "I want to learn about dealing with regret",
+        "How do I start dealing with regret?",
+        "How can I move on from regret?",
+        "What are some strategies for moving on from regret?",
+        "I want to learn about regret and forgiveness",
+        "How do I start moving on from regret?"
+      ],
+      "responses": [
+        "Dealing with regret involves self-reflection, self-forgiveness, seeking support, and engaging in activities that promote growth and self-improvement.",
+        "Some regret-handling techniques include journaling, practicing self-compassion, setting goals, and learning from past mistakes.",
+        "To start dealing with regret, acknowledge your emotions, practice self-forgiveness, and focus on the present moment and future opportunities.",
+        "Remember that regret is a common experience, but it's important to learn from your mistakes, practice self-compassion, and focus on personal growth and self-improvement."
+      ],
+      "id": 43
+    },
+    {
+      "tag": "forgiveness",
+      "patterns": [
+        "How can I practice forgiveness?",
+        "What are some forgiveness techniques?",
+        "I want to learn about forgiveness",
+        "How do I start practicing forgiveness?",
+        "How can I forgive myself?",
+        "What are some strategies for forgiving oneself?",
+        "I want to learn about self-forgiveness",
+        "How do I start forgiving myself?"
+      ],
+      "responses": [
+        "Practicing forgiveness involves self-reflection, empathy, seeking support, and engaging in activities that promote healing and reconciliation.",
+        "Some forgiveness techniques include journaling, practicing empathy, setting boundaries, and engaging in forgiveness rituals or practices.",
+        "To start practicing forgiveness, acknowledge your emotions, practice self-compassion, and focus on understanding and letting go of past hurts.",
+        "Remember that forgiveness is a process that takes time and self-compassion. Be patient with yourself, seek support when needed, and prioritize activities that promote healing and reconciliation."
+      ],
+      "id": 44
+    },
+    {
+      "tag": "acceptance",
+      "patterns": [
+        "How can I practice acceptance?",
+        "What are some acceptance techniques?",
+        "I want to learn about acceptance",
+        "How do I start practicing acceptance?",
+        "How can I accept myself?",
+        "What are some strategies for self-acceptance?",
+        "I want to learn about self-acceptance",
+        "How do I start accepting myself?"
+      ],
+      "responses": [
+        "Practicing acceptance involves self-awareness, self-compassion, seeking support, and engaging in activities that promote self-acceptance and self-love.",
+        "Some acceptance techniques include mindfulness practices, positive affirmations, setting boundaries, and engaging in self-care activities.",
+        "To start practicing acceptance, acknowledge your emotions, practice self-compassion, and focus on accepting yourself and your experiences without judgment.",
+        "Remember that acceptance is a journey that takes time and self-compassion. Be patient with yourself, seek support when needed, and prioritize activities that promote self-acceptance and self-love."
+      ],
+      "id": 45
+    },
+    {
+      "tag": "anger_management",
+      "patterns": [
+        "How can I manage my anger?",
+        "What are some anger management techniques?",
+        "I want to learn about anger management",
+        "How do I start managing my anger?",
+        "How can I control my temper?",
+        "What are some strategies for controlling anger?",
+        "I want to learn about anger and self-control",
+        "How do I start controlling my temper?"
+      ],
+      "responses": [
+        "Managing anger involves self-awareness, self-regulation, seeking support, and engaging in activities that promote emotional regulation and conflict resolution.",
+        "Some anger management techniques include deep breathing exercises, mindfulness practices, setting boundaries, and practicing assertive communication.",
+        "To start managing anger, acknowledge your emotions, practice self-regulation, and focus on healthy ways to express and release your anger.",
+        "Remember that anger is a normal emotion, but it's important to manage it in healthy and constructive ways. Be patient with yourself, seek support when needed, and prioritize activities that promote emotional regulation and conflict resolution."
+      ],
+      "id": 46
+    },
+    {
+      "tag": "self_care",
+      "patterns": [
+        "How can I practice self-care?",
+        "What are some self-care techniques?",
+        "I want to learn about self-care",
+        "How do I start practicing self-care?",
+        "How can I take care of myself?",
+        "What are some strategies for self-care?",
+        "I want to learn about self-care and well-being",
+        "How do I start taking care of myself?"
+      ],
+      "responses": [
+        "Practicing self-care involves setting boundaries, prioritizing your well-being, seeking support, and engaging in activities that promote physical, mental, and emotional health.",
+        "Some self-care techniques include mindfulness practices, exercise, healthy eating, and engaging in activities that bring you joy and relaxation.",
+        "To start practicing self-care, identify your needs and priorities, create a self-care routine, and engage in activities that nurture your mind, body, and spirit.",
+        "Remember that self-care is essential for your overall well-being and happiness. Be kind to yourself, seek support when needed, and prioritize activities that promote self-care and self-love."
+      ],
+      "id": 47
+    },
+    {
+      "tag": "boundary_setting",
+      "patterns": [
+        "How can I set boundaries?",
+        "What are some boundary-setting techniques?",
+        "I want to learn about setting boundaries",
+        "How do I start setting boundaries?",
+        "How can I establish healthy boundaries?",
+        "What are some strategies for establishing boundaries?",
+        "I want to learn about boundaries and self-respect",
+        "How do I start establishing healthy boundaries?"
+      ],
+      "responses": [
+        "Setting boundaries involves self-awareness, assertiveness, seeking support, and engaging in activities that promote self-respect and healthy relationships.",
+        "Some boundary-setting techniques include practicing assertive communication, setting limits, saying no, and prioritizing your needs and well-being.",
+        "To start setting boundaries, identify your values and priorities, communicate your needs clearly, and establish limits that promote your well-being and self-respect.",
+        "Remember that setting boundaries is an important part of self-care and self-respect. Be assertive, seek support when needed, and prioritize activities that promote healthy relationships and well-being."
+      ],
+      "id": 48
+    },
+    {
+      "tag": "relationship_advice",
+      "patterns": [
+        "How can I improve my relationships?",
+        "What are some relationship advice techniques?",
+        "I want to learn about relationship advice",
+        "How do I start improving my relationships?",
+        "How can I communicate better in relationships?",
+        "What are some strategies for better communication in relationships?",
+        "I want to learn about relationships and communication",
+        "How do I start communicating better in relationships?"
+      ],
+      "responses": [
+        "Improving relationships involves effective communication, empathy, seeking support, and engaging in activities that promote connection and understanding.",
+        "Some relationship advice techniques include active listening, expressing emotions, setting boundaries, and practicing empathy and compassion.",
+        "To start improving relationships, focus on effective communication, express your needs and emotions, and engage in activities that promote connection and understanding.",
+        "Remember that relationships require effort and commitment. Be patient with yourself and others, seek support when needed, and prioritize activities that promote healthy communication and connection."
+      ],
+      "id": 49
+    },
+    {
+      "tag": "emotional_support",
+      "patterns": [
+        "How can u provide emotional support?",
+        "What are some emotional support techniques?",
+        "I want to learn about emotional support",
+        "How do I start providing emotional support?",
+        "How can I support others emotionally?",
+        "What are some strategies for emotional support?"
+      ],
+      "responses": [
+        "Providing emotional support involves active listening, empathy, validation, and offering comfort and reassurance to those in need.",
+        "Some emotional support techniques include expressing empathy, offering validation, providing comfort, and practicing active listening and understanding.",
+        "To provide emotional support, listen attentively, express empathy and understanding, offer comfort and reassurance, and validate the emotions and experiences of others.",
+        "Remember that emotional support is an important part of relationships and connections. Be present, offer comfort and understanding, and prioritize the well-being and needs of others."
+      ],
+      "id": 50
+    },
+    {
+      "tag": "mental_health_resources",
+      "patterns": [
+        "What mental health resources are available?",
+        "Where can I find mental health resources?",
+        "I need mental health resources",
+        "Can you provide mental health resources?",
+        "I'm seeking mental health resources",
+        "Where can I get mental health support?",
+        "What mental health resources are available?",
+        "Where can I find mental health resources?",
+        "I need mental health resources",
+        "Can you provide mental health resources?",
+        "I'm seeking mental health resources",
+        "Where can I get mental health support?",
+        "What mental health resources are available?",
+        "Where can I find mental health resources?",
+        "I need mental health resources",
+        "Can you provide mental health resources?",
+        "I'm seeking mental health resources",
+        "Where can I get mental health support?",
+        "What mental health resources are available?",
+        "Where can I find mental health resources?",
+        "I need mental health resources",
+        "Can you provide mental health resources?",
+        "I'm seeking mental health resources",
+        "Where can I get mental health support?",
+        "What mental health resources are available?",
+        "Where can I find mental health resources?",
+        "I need mental health resources",
+        "Can you provide mental health resources?",
+        "I'm seeking mental health resources",
+        "Where can I get mental health support?",
+        "What mental health resources are available?",
+        "Where can I find mental health resources?",
+        "I need mental health resources",
+        "Can you provide mental health resources?",
+        "I'm seeking mental health resources",
+        "Where can I get mental health support?",
+        "What mental health resources are available?",
+        "Where can I find mental health resources?",
+        "I need mental health resources",
+        "Can you provide mental health resources?",
+        "I'm seeking mental health resources",
+        "Where can I get mental health support?",
+        "What mental health resources are available?",
+        "Where can I find mental health resources?",
+        "I need mental health resources",
+        "Can you provide mental health resources?",
+        "I'm seeking mental health resources",
+        "Where can I get mental health support?",
+        "What mental health resources are available?",
+        "Where can I find mental health resources?",
+        "I need mental health resources",
+        "Can you provide mental health resources?",
+        "I'm seeking mental health resources",
+        "Where can I get mental health support?"
+      ],
+      "responses": [
+        "There are many mental health resources available, including therapy, support groups, hotlines, online resources, and self-help tools. You can find mental health resources through your healthcare provider, community organizations, online directories, and mental health websites.",
+        "You can find mental health resources through your healthcare provider, community organizations, online directories, and mental health websites. Some resources include therapy, support groups, hotlines, online resources, and self-help tools.",
+        "Mental health resources are available through your healthcare provider, community organizations, online directories, and mental health websites. Some resources include therapy, support groups, hotlines, online resources, and self-help tools.",
+        "There are many mental health resources available, including therapy, support groups, hotlines, online resources, and self-help tools. You can find mental health resources through your healthcare provider, community organizations, online directories, and mental health websites."
+      ],
+      "id": 51
+    },
+    {
+      "tag": "coping_with_change",
+      "patterns": [
+        "How can I cope with change?",
+        "What are some coping with change techniques?",
+        "I want to learn about coping with change",
+        "How do I start coping with change?",
+        "How can I adapt to change?",
+        "What are some strategies for adapting to change?",
+        "I want to learn about change and resilience",
+        "How do I start adapting to change?"
+      ],
+      "responses": [
+        "Coping with change involves self-awareness, flexibility, seeking support, and engaging in activities that promote resilience and adaptability.",
+        "Some coping with change techniques include mindfulness practices, self-compassion, setting goals, and developing problem-solving skills.",
+        "To start coping with change, acknowledge your emotions, practice self-compassion, and focus on the present moment and future opportunities.",
+        "Remember that change is a natural part of life, and it's important to be patient and adaptable as you navigate transitions and challenges. Seek support when needed, and prioritize activities that promote resilience and growth."
+      ],
+      "id": 52
+    },
+    {
+      "tag": "dealing_with_failure",
+      "patterns": [
+        "How can I deal with failure?",
+        "What are some failure-handling techniques?",
+        "I want to learn about dealing with failure",
+        "How do I start dealing with failure?",
+        "How can I bounce back from failure?",
+        "What are some strategies for bouncing back from failure?",
+        "I want to learn about failure and resilience",
+        "How do I start bouncing back from failure?"
+      ],
+      "responses": [
+        "Dealing with failure involves self-reflection, self-compassion, seeking support, and engaging in activities that promote growth and resilience.",
+        "Some failure-handling techniques include learning from mistakes, setting new goals, practicing self-compassion, and developing problem-solving skills.",
+        "To start dealing with failure, acknowledge your emotions, practice self-compassion, and focus on the lessons learned and opportunities for growth.",
+        "Remember that failure is a natural part of life, and it's important to be patient and resilient as you navigate setbacks and challenges. Seek support when needed, and prioritize activities that promote self-improvement and personal growth."
+      ],
+      "id": 53
+    },
+    {
+      "tag": "finding_purpose",
+      "patterns": [
+        "How can I find my purpose?",
+        "What are some purpose-finding techniques?",
+        "I want to learn about finding purpose",
+        "How do I start finding my purpose?",
+        "How can I discover my passion?",
+        "What are some strategies for discovering passion?",
+        "I want to learn about purpose and fulfillment",
+        "How do I start discovering my passion?"
+      ],
+      "responses": [
+        "Finding your purpose involves self-reflection, exploration, seeking support, and engaging in activities that align with your values and passions.",
+        "Some purpose-finding techniques include journaling, setting goals, exploring new interests, and seeking feedback from others.",
+        "To start finding your purpose, reflect on your values and interests, set goals that align with your passions, and engage in activities that bring you joy and fulfillment.",
+        "Remember that finding your purpose is a journey that takes time and self-discovery. Be patient with yourself, seek support when needed, and prioritize activities that align with your values and passions."
+      ],
+      "id": 54
+    },
+    {
+      "tag": "self_reflection",
+      "patterns": [
+        "How can I practice self-reflection?",
+        "What are some self-reflection techniques?",
+        "I want to learn about self-reflection",
+        "How do I start practicing self-reflection?",
+        "How can I reflect on my thoughts and emotions?",
+        "What are some strategies for reflecting on thoughts and emotions?",
+        "I want to learn about self-reflection and growth",
+        "How do I start reflecting on my thoughts and emotions?"
+      ],
+      "responses": [
+        "Practicing self-reflection involves mindfulness, journaling, seeking support, and engaging in activities that promote self-awareness and personal growth.",
+        "Some self-reflection techniques include meditation, journaling, setting aside quiet time, and seeking feedback from others.",
+        "To start practicing self-reflection, create a routine, set aside time for introspection, and engage in activities that promote self-awareness and personal growth.",
+        "Remember that self-reflection is a valuable tool for personal growth and self-awareness. Be patient with yourself, seek support when needed, and prioritize activities that promote self-discovery and self-improvement."
+      ],
+      "id": 55
+    },
+    {
+      "tag": "self_improvement",
+      "patterns": [
+        "How can I improve myself?",
+        "What are some self-improvement techniques?",
+        "I want to learn about self-improvement",
+        "How do I start improving myself?",
+        "How can I grow as a person?",
+        "What are some strategies for personal growth?",
+        "I want to learn about self-improvement and growth",
+        "How do I start growing as a person?"
+      ],
+      "responses": [
+        "Improving yourself involves self-awareness, goal-setting, seeking support, and engaging in activities that promote personal growth and self-improvement.",
+        "Some self-improvement techniques include setting SMART goals, practicing self-compassion, seeking feedback, and developing new skills and habits.",
+        "To start improving yourself, identify areas for growth, set realistic goals, and engage in activities that promote self-awareness and personal development.",
+        "Remember that self-improvement is a journey that takes time and effort. Be patient with yourself, seek support when needed, and prioritize activities that promote personal growth and self-improvement."
+      ],
+      "id": 56
+    },
+    {
+      "tag": "goal_setting",
+      "patterns": [
+        "How can I set goals?",
+        "What are some goal-setting techniques?",
+        "I want to learn about goal setting",
+        "How do I start setting goals?",
+        "How can I achieve my goals?",
+        "What are some strategies for achieving goals?",
+        "I want to learn about goal setting and success",
+        "How do I start achieving my goals?"
+      ],
+      "responses": [
+        "Setting goals involves self-awareness, planning, seeking support, and engaging in activities that promote motivation and success.",
+        "Some goal-setting techniques include setting SMART goals, creating action plans, tracking progress, and celebrating achievements.",
+        "To start setting goals, identify your values and priorities, create a vision board, and break down your goals into manageable steps.",
+        "Remember that goal setting is a powerful tool for personal growth and success. Be patient with yourself, seek support when needed, and prioritize activities that align with your goals and values."
+      ],
+      "id": 57
+    },
+    {
+      "tag": "time_management",
+      "patterns": [
+        "How can I manage my time?",
+        "What are some time management techniques?",
+        "I want to learn about time management",
+        "How do I start managing my time?",
+        "How can I be more productive?",
+        "What are some strategies for productivity?",
+        "I want to learn about time management and productivity",
+        "How do I start being more productive?"
+      ],
+      "responses": [
+        "Managing your time involves setting priorities, creating a schedule, seeking support, and engaging in activities that promote productivity and efficiency.",
+        "Some time management techniques include creating to-do lists, setting deadlines, using time management tools, and practicing self-discipline.",
+        "To start managing your time, identify your priorities, create a daily schedule, and break down tasks into manageable steps.",
+        "Remember that time management is a valuable skill that can help you achieve your goals and reduce stress. Be patient with yourself, seek support when needed, and prioritize activities that promote productivity and efficiency."
+      ],
+      "id": 58
+    },
+    {
+      "tag": "productivity",
+      "patterns": [
+        "How can I be more productive?",
+        "What are some productivity techniques?",
+        "I want to learn about productivity",
+        "How do I start being more productive?",
+        "How can I increase my efficiency?",
+        "What are some strategies for increasing efficiency?",
+        "I want to learn about productivity and time management",
+        "How do I start increasing my efficiency?"
+      ],
+      "responses": [
+        "Being more productive involves setting goals, creating a routine, seeking support, and engaging in activities that promote focus and efficiency.",
+        "Some productivity techniques include time blocking, setting priorities, eliminating distractions, and practicing self-discipline.",
+        "To start being more productive, identify your most important tasks, create a daily schedule, and focus on one task at a time.",
+        "Remember that productivity is a skill that can be developed and improved over time. Be patient with yourself, seek support when needed, and prioritize activities that promote focus and efficiency."
+      ],
+      "id": 59
+    },
+    {
+      "tag": "confidence_boosting",
+      "patterns": [
+        "How can I boost my confidence?",
+        "What are some confidence-boosting techniques?",
+        "I want to learn about boosting confidence",
+        "How do I start boosting my confidence?",
+        "How can I feel more self-assured?",
+        "What are some strategies for feeling self-assured?"
+      ],
+      "responses": [
+        "Boosting your confidence involves self-awareness, self-compassion, seeking support, and engaging in activities that promote self-esteem and self-assurance.",
+        "Some confidence-boosting techniques include positive self-talk, setting goals, practicing self-care, and celebrating achievements.",
+        "To start boosting your confidence, identify your strengths, challenge negative thoughts, and engage in activities that promote self-esteem and self-assurance.",
+        "Remember that confidence is a skill that can be developed and strengthened over time. Be patient with yourself, seek support when needed, and prioritize activities that promote self-esteem and self-assurance."
+      ],
+      "id": 60
+    },
+    {
+      "tag": "accepting_help",
+      "patterns": [
+        "How can I accept help?",
+        "What are some accepting help techniques?",
+        "I want to learn about accepting help",
+        "How do I start accepting help?",
+        "How can I be more open to help?",
+        "What are some strategies for being open to help?"
+      ],
+      "responses": [
+        "Accepting help involves vulnerability, trust, seeking support, and engaging in activities that promote connection and growth.",
+        "Some accepting help techniques include expressing gratitude, setting boundaries, practicing self-compassion, and seeking feedback from others.",
+        "To start accepting help, acknowledge your needs, express gratitude, and be open to receiving support and guidance from others.",
+        "Remember that accepting help is a sign of strength and courage. Be open to support and guidance, seek help when needed, and prioritize activities that promote connection and growth."
+      ],
+      "id": 61
+    },
+    {
+      "tag": "social_isolation",
+      "patterns": [
+        "How can I cope with social isolation?",
+        "What are some social isolation coping techniques?",
+        "I want to learn about coping with social isolation",
+        "How do I start coping with social isolation?",
+        "How can I combat loneliness?",
+        "What are some strategies for combating loneliness?",
+        "I want to learn about social isolation and mental health",
+        "How do I start combating loneliness?"
+      ],
+      "responses": [
+        "Coping with social isolation involves self-care, connection, seeking support, and engaging in activities that promote social connection and well-being.",
+        "Some social isolation coping techniques include reaching out to loved ones, joining online communities, practicing self-compassion, and engaging in activities that bring you joy and fulfillment.",
+        "To start coping with social isolation, prioritize self-care, reach out to loved ones, and engage in activities that promote social connection and well-being.",
+        "Remember that social isolation can impact your mental health and well-being, but there are effective strategies for managing and reducing feelings of loneliness. Be proactive in seeking support, stay connected with loved ones, and prioritize activities that promote social connection and well-being."
+      ],
+      "id": 62
+    },
+    {
+      "tag": "feeling_helpless",
+      "patterns": [
+        "How can I cope with feeling helpless?",
+        "What are some feeling helpless coping techniques?",
+        "I want to learn about coping with feeling helpless",
+        "How do I start coping with feeling helpless?",
+        "How can I regain a sense of control?",
+        "What are some strategies for regaining control?",
+        "I want to learn about feeling helpless and empowerment",
+        "How do I start regaining a sense of control?"
+      ],
+      "responses": [
+        "Coping with feeling helpless involves self-awareness, self-compassion, seeking support, and engaging in activities that promote empowerment and resilience.",
+        "Some feeling helpless coping techniques include setting goals, practicing self-care, seeking support, and engaging in activities that promote self-efficacy and self-empowerment.",
+        "To start coping with feeling helpless, acknowledge your emotions, practice self-compassion, and focus on activities that promote empowerment and resilience.",
+        "Remember that feeling helpless is a common experience, but there are effective strategies for regaining a sense of control and empowerment. Be patient with yourself, seek support when needed, and prioritize activities that promote self-efficacy and self-empowerment."
+      ],
+      "id": 63
+    },
+    {
+      "tag": "hope_for_the_future",
+      "patterns": [
+        "How can I find hope for the future?",
+        "What are some hope-for-the-future techniques?",
+        "I want to learn about finding hope for the future",
+        "How do I start finding hope for the future?",
+        "How can I stay hopeful about the future?",
+        "What are some strategies for staying hopeful about the future?",
+        "I want to learn about hope and resilience for the future",
+        "How do I start staying hopeful about the future?"
+      ],
+      "responses": [
+        "Finding hope for the future involves cultivating a positive mindset, setting goals, seeking support, and engaging in activities that promote resilience and well-being.",
+        "Some hope-for-the-future techniques include practicing gratitude, setting intentions, visualizing success, and engaging in activities that bring joy and fulfillment to your life.",
+        "To start finding hope for the future, focus on the present moment, set realistic goals, and engage in activities that promote positivity and well-being.",
+        "Remember that hope is a powerful force that can help you navigate challenges and setbacks. Cultivate hope by focusing on the positive aspects of your life, setting intentions, and seeking support when needed."
+      ],
+      "id": 64
+    },
+    {
+      "tag": "talking_about_the_past",
+      "patterns": [
+        "How can I talk about the past?",
+        "What are some talking-about-the-past techniques?",
+        "I want to learn about talking about the past",
+        "How do I start talking about the past?",
+        "How can I process past experiences?",
+        "What are some strategies for processing past experiences?",
+        "I want to learn about the past and healing",
+        "How do I start processing past experiences?"
+      ],
+      "responses": [
+        "Talking about the past involves self-awareness, self-compassion, seeking support, and engaging in activities that promote healing and growth.",
+        "Some talking-about-the-past techniques include journaling, therapy, support groups, and engaging in activities that promote self-reflection and self-awareness.",
+        "To start talking about the past, acknowledge your emotions, practice self-compassion, and focus on activities that promote healing and growth.",
+        "Remember that processing past experiences is an important part of healing and personal growth. Be patient with yourself, seek support when needed, and prioritize activities that promote self-reflection and self-awareness."
+      ],
+      "id": 65
+    },
+    {
+      "tag": "gratitude_practice",
+      "patterns": [
+        "How can I practice gratitude?",
+        "What are some gratitude-practice techniques?",
+        "I want to learn about practicing gratitude",
+        "How do I start practicing gratitude?",
+        "How can I cultivate a sense of gratitude?",
+        "What are some strategies for cultivating gratitude?",
+        "I want to learn about gratitude and well-being",
+        "How do I start cultivating a sense of gratitude?"
+      ],
+      "responses": [
+        "Practicing gratitude involves mindfulness, self-awareness, seeking support, and engaging in activities that promote positivity and well-being.",
+        "Some gratitude-practice techniques include keeping a gratitude journal, expressing thanks, setting intentions, and engaging in activities that promote positivity and joy.",
+        "To start practicing gratitude, focus on the present moment, express thanks for the small things in life, and engage in activities that promote positivity and well-being.",
+        "Remember that gratitude is a powerful practice that can improve your mental health and well-being. Be present, express thanks, and prioritize activities that promote positivity and joy in your life."
+      ],
+      "id": 66
+    },
+    {
+      "tag": "stress_relief",
+      "patterns": [
+        "How can I relieve stress?",
+        "What are some stress-relief techniques?",
+        "I want to learn about stress relief",
+        "How do I start relieving stress?",
+        "How can I manage my stress?",
+        "What are some strategies for managing stress?",
+        "I want to learn about stress and relaxation",
+        "How do I start managing my stress?"
+      ],
+      "responses": [
+        "Relieving stress involves self-care, relaxation, seeking support, and engaging in activities that promote calmness and well-being.",
+        "Some stress-relief techniques include deep breathing exercises, mindfulness practices, physical activity, and engaging in activities that bring you joy and relaxation.",
+        "To start relieving stress, identify your stress triggers, practice self-care, and engage in activities that promote relaxation and well-being.",
+        "Remember that stress is a common experience, but there are effective strategies for managing and reducing stress. Be patient with yourself, seek support when needed, and prioritize activities that promote calmness and well-being."
+      ],
+      "id": 67
+    },
+    {
+      "tag": "forgiving_oneself",
+      "patterns": [
+        "How can I forgive myself?",
+        "What are some self-forgiveness techniques?",
+        "I want to learn about forgiving myself",
+        "How do I start forgiving myself?",
+        "How can I let go of guilt?",
+        "What are some strategies for letting go of guilt?",
+        "I want to learn about self-forgiveness and healing",
+        "How do I start letting go of guilt?"
+      ],
+      "responses": [
+        "Forgiving yourself involves self-compassion, self-awareness, seeking support, and engaging in activities that promote healing and self-acceptance.",
+        "Some self-forgiveness techniques include journaling, practicing self-compassion, setting boundaries, and engaging in activities that promote self-care and self-acceptance.",
+        "To start forgiving yourself, acknowledge your mistakes, practice self-compassion, and focus on activities that promote healing and self-acceptance.",
+        "Remember that self-forgiveness is a journey that takes time and self-compassion. Be patient with yourself, seek support when needed, and prioritize activities that promote self-care and self-acceptance."
+      ],
+      "id": 68
+    },
+    {
+      "tag": "letting_go",
+      "patterns": [
+        "How can I let go of the past?",
+        "What are some letting-go techniques?",
+        "I want to learn about letting go",
+        "How do I start letting go of the past?",
+        "How can I release negative emotions?",
+        "What are some strategies for releasing negative emotions?",
+        "I want to learn about letting go and moving on",
+        "How do I start releasing negative emotions?"
+      ],
+      "responses": [
+        "Letting go involves self-awareness, self-compassion, seeking support, and engaging in activities that promote healing and growth.",
+        "Some letting-go techniques include journaling, mindfulness practices, setting boundaries, and engaging in activities that promote self-reflection and self-awareness.",
+        "To start letting go, acknowledge your emotions, practice self-compassion, and focus on activities that promote healing and growth.",
+        "Remember that letting go is a process that takes time and self-compassion. Be patient with yourself, seek support when needed, and prioritize activities that promote self-reflection and self-awareness."
+      ],
+      "id": 69
+    },
+    {
+      "tag": "letting_go_of_anger",
+      "patterns": [
+        "How can I let go of anger?",
+        "What are some letting-go-of-anger techniques?",
+        "I want to learn about letting go of anger",
+        "How do I start letting go of anger?",
+        "How can I release anger?",
+        "What are some strategies for releasing anger?",
+        "I want to learn about letting go of anger and forgiveness",
+        "How do I start releasing anger?"
+      ],
+      "responses": [
+        "Letting go of anger involves self-awareness, self-regulation, seeking support, and engaging in activities that promote emotional regulation and forgiveness.",
+        "Some letting-go-of-anger techniques include deep breathing exercises, mindfulness practices, setting boundaries, and practicing forgiveness and empathy.",
+        "To start letting go of anger, acknowledge your emotions, practice self-regulation, and focus on healthy ways to express and release your anger.",
+        "Remember that anger is a normal emotion, but it's important to manage it in healthy and constructive ways. Be patient with yourself, seek support when needed, and prioritize activities that promote emotional regulation and forgiveness."
+      ],
+      "id": 70
+    },
+    {
+      "tag": "inner_peace",
+      "patterns": [
+        "How can I find inner peace?",
+        "What are some inner-peace techniques?",
+        "I want to learn about finding inner peace",
+        "How do I start finding inner peace?",
+        "How can I cultivate peace of mind?",
+        "What are some strategies for cultivating peace of mind?",
+        "I want to learn about inner peace and mindfulness",
+        "How do I start cultivating peace of mind?"
+      ],
+      "responses": [
+        "Finding inner peace involves mindfulness, self-awareness, seeking support, and engaging in activities that promote calmness and well-being.",
+        "Some inner-peace techniques include meditation, deep breathing exercises, setting boundaries, and engaging in activities that bring you joy and relaxation.",
+        "To start finding inner peace, create a peaceful environment, practice mindfulness, and engage in activities that promote calmness and well-being.",
+        "Remember that inner peace is a journey that takes time and self-awareness. Be patient with yourself, seek support when needed, and prioritize activities that promote relaxation and well-being."
+      ],
+      "id": 71
+    },
+    {
+      "tag": "calm_mind",
+      "patterns": [
+        "How can I calm my mind?",
+        "What are some calm-mind techniques?",
+        "I want to learn about calming the mind",
+        "How do I start calming my mind?",
+        "How can I quiet my thoughts?",
+        "What are some strategies for quieting the mind?",
+        "I want to learn about calmness and relaxation",
+        "How do I start quieting my thoughts?"
+      ],
+      "responses": [
+        "Calming your mind involves mindfulness, relaxation, seeking support, and engaging in activities that promote mental clarity and well-being.",
+        "Some calm-mind techniques include deep breathing exercises, meditation, visualization, and engaging in activities that promote relaxation and focus.",
+        "To start calming your mind, create a peaceful environment, practice mindfulness, and engage in activities that promote mental clarity and well-being.",
+        "Remember that a calm mind is essential for your mental health and well-being. Be patient with yourself, seek support when needed, and prioritize activities that promote relaxation and focus."
+      ],
+      "id": 72
+    },
+    {
+      "tag": "hope_in_the_dark",
+      "patterns": [
+        "How can I find hope in the dark?",
+        "What are some hope-in-the-dark techniques?",
+        "I want to learn about finding hope in the dark",
+        "How do I start finding hope in the dark?",
+        "How can I stay hopeful during difficult times?",
+        "What are some strategies for staying hopeful during difficult times?",
+        "I want to learn about hope and resilience in difficult times",
+        "How do I start staying hopeful during difficult times?"
+      ],
+      "responses": [
+        "Finding hope in the dark involves resilience, self-compassion, seeking support, and engaging in activities that promote positivity and well-being.",
+        "Some hope-in-the-dark techniques include practicing gratitude, setting intentions, visualizing success, and engaging in activities that bring joy and fulfillment to your life.",
+        "To start finding hope in the dark, focus on the present moment, express thanks for the small things in life, and engage in activities that promote positivity and well-being.",
+        "Remember that hope is a powerful force that can help you navigate challenges and setbacks. Cultivate hope by focusing on the positive aspects of your life, setting intentions, and seeking support when needed."
+      ],
+      "id": 73
+    },
+    {
+      "tag": "mind_over_matter",
+      "patterns": [
+        "How can I practice mind over matter?",
+        "What are some mind-over-matter techniques?",
+        "I want to learn about practicing mind over matter",
+        "How do I start practicing mind over matter?",
+        "How can I use my mind to overcome challenges?",
+        "What are some strategies for using your mind to overcome challenges?",
+        "I want to learn about mind over matter and resilience",
+        "How do I start using my mind to overcome challenges?"
+      ],
+      "responses": [
+        "Practicing mind over matter involves self-awareness, self-regulation, seeking support, and engaging in activities that promote resilience and mental strength.",
+        "Some mind-over-matter techniques include positive self-talk, visualization, setting goals, and engaging in activities that promote mental clarity and focus.",
+        "To start practicing mind over matter, challenge negative thoughts, set realistic goals, and focus on activities that promote mental strength and resilience.",
+        "Remember that your mind is a powerful tool that can help you overcome challenges and setbacks. Be patient with yourself, seek support when needed, and prioritize activities that promote mental clarity and focus."
+      ],
+      "id": 74
+    },
+    {
+      "tag": "breaking_bad_habits",
+      "patterns": [
+        "How can I break bad habits?",
+        "What are some breaking-bad-habits techniques?",
+        "I want to learn about breaking bad habits",
+        "How do I start breaking bad habits?",
+        "How can I replace unhealthy habits?",
+        "What are some strategies for replacing unhealthy habits?",
+        "I want to learn about breaking bad habits and self-improvement",
+        "How do I start replacing unhealthy habits?"
+      ],
+      "responses": [
+        "Breaking bad habits involves self-awareness, self-discipline, seeking support, and engaging in activities that promote positive change and personal growth.",
+        "Some breaking-bad-habits techniques include setting goals, creating a plan, tracking progress, and engaging in activities that promote self-improvement and well-being.",
+        "To start breaking bad habits, identify your triggers, set realistic goals, and focus on activities that promote positive change and personal growth.",
+        "Remember that breaking bad habits is a process that takes time and effort. Be patient with yourself, seek support when needed, and prioritize activities that promote self-improvement and well-being."
+      ],
+      "id": 75
+    },
+    {
+      "tag": "personal_growth",
+      "patterns": [
+        "How can I achieve personal growth?",
+        "What are some personal-growth techniques?",
+        "I want to learn about achieving personal growth",
+        "How do I start achieving personal growth?",
+        "How can I grow as a person?",
+        "What are some strategies for personal growth?",
+        "I want to learn about personal growth and self-improvement",
+        "How do I start growing as a person?"
+      ],
+      "responses": [
+        "Achieving personal growth involves self-awareness, goal-setting, seeking support, and engaging in activities that promote self-improvement and well-being.",
+        "Some personal-growth techniques include setting SMART goals, practicing self-compassion, seeking feedback, and developing new skills and habits.",
+        "To start achieving personal growth, identify areas for improvement, set realistic goals, and engage in activities that promote self-awareness and self-improvement.",
+        "Remember that personal growth is a journey that takes time and effort. Be patient with yourself, seek support when needed, and prioritize activities that promote self-improvement and well-being."
+      ],
+      "id": 76
+    },
+    {
+      "tag": "learning_from_mistakes",
+      "patterns": [
+        "How can I learn from my mistakes?",
+        "What are some learning-from-mistakes techniques?",
+        "I want to learn about learning from mistakes",
+        "How do I start learning from my mistakes?",
+        "How can I grow from failure?",
+        "What are some strategies for growing from failure?",
+        "I want to learn about learning from mistakes and resilience",
+        "How do I start growing from failure?"
+      ],
+      "responses": [
+        "Learning from mistakes involves self-reflection, self-compassion, seeking support, and engaging in activities that promote growth and resilience.",
+        "Some learning-from-mistakes techniques include journaling, setting new goals, practicing self-compassion, and developing problem-solving skills.",
+        "To start learning from mistakes, acknowledge your errors, practice self-compassion, and focus on the lessons learned and opportunities for growth.",
+        "Remember that mistakes are a natural part of life, and it's important to be patient and resilient as you navigate setbacks and challenges. Seek support when needed, and prioritize activities that promote self-improvement and personal growth."
+      ],
+      "id": 77
+    },
+    {
+      "tag": "resilience_building",
+      "patterns": [
+        "How can I build resilience?",
+        "What are some resilience-building techniques?",
+        "I want to learn about building resilience",
+        "How do I start building resilience?",
+        "How can I bounce back from setbacks?",
+        "What are some strategies for bouncing back from setbacks?",
+        "I want to learn about resilience and growth",
+        "How do I start bouncing back from setbacks?"
+      ],
+      "responses": [
+        "Building resilience involves self-awareness, flexibility, seeking support, and engaging in activities that promote adaptability and growth.",
+        "Some resilience-building techniques include mindfulness practices, self-compassion, setting goals, and developing problem-solving skills.",
+        "To start building resilience, acknowledge your emotions, practice self-compassion, and focus on the present moment and future opportunities.",
+        "Remember that resilience is a valuable skill that can help you navigate challenges and setbacks. Be patient with yourself, seek support when needed, and prioritize activities that promote adaptability and growth."
+      ],
+      "id": 78
+    },
+    {
+      "tag": "progress_not_perfection",
+      "patterns": [
+        "How can I focus on progress, not perfection?",
+        "What are some progress-not-perfection techniques?",
+        "I want to learn about focusing on progress, not perfection",
+        "How do I start focusing on progress, not perfection?",
+        "How can I embrace imperfection?",
+        "What are some strategies for embracing imperfection?",
+        "I want to learn about progress, not perfection and self-acceptance",
+        "How do I start embracing imperfection?"
+      ],
+      "responses": [
+        "Focusing on progress, not perfection, involves self-awareness, self-compassion, seeking support, and engaging in activities that promote growth and self-acceptance.",
+        "Some progress-not-perfection techniques include setting realistic goals, practicing self-compassion, seeking feedback, and developing a growth mindset.",
+        "To start focusing on progress, not perfection, acknowledge your efforts, practice self-compassion, and focus on the journey and lessons learned.",
+        "Remember that progress is more important than perfection, and it's important to be patient and kind to yourself as you navigate challenges and setbacks. Seek support when needed, and prioritize activities that promote growth and self-acceptance."
+      ],
+      "id": 79
+    },
+    {
+      "tag": "accepting_flaws",
+      "patterns": [
+        "How can I accept my flaws?",
+        "What are some accepting-flaws techniques?",
+        "I want to learn about accepting my flaws",
+        "How do I start accepting my flaws?",
+        "How can I embrace imperfections?",
+        "What are some strategies for embracing imperfections?",
+        "I want to learn about accepting flaws and self-compassion",
+        "How do I start embracing imperfections?"
+      ],
+      "responses": [
+        "Accepting your flaws involves self-awareness, self-compassion, seeking support, and engaging in activities that promote self-acceptance and growth.",
+        "Some accepting-flaws techniques include practicing self-compassion, setting boundaries, seeking feedback, and engaging in activities that promote self-care and self-acceptance.",
+        "To start accepting your flaws, acknowledge your imperfections, practice self-compassion, and focus on activities that promote self-acceptance and growth.",
+        "Remember that accepting your flaws is a journey that takes time and self-compassion. Be patient with yourself, seek support when needed, and prioritize activities that promote self-care and self-acceptance."
+      ],
+      "id": 80
+    },
+    {
+      "tag": "talking_about_stress",
+      "patterns": [
+        "How can I talk about stress?",
+        "What are some talking-about-stress techniques?",
+        "I want to learn about talking about stress",
+        "How do I start talking about stress?",
+        "How can I express my stress?",
+        "What are some strategies for expressing stress?",
+        "I want to learn about stress and communication",
+        "How do I start expressing my stress?"
+      ],
+      "responses": [
+        "Talking about stress involves self-awareness, communication skills, seeking support, and engaging in activities that promote emotional expression and well-being.",
+        "Some talking-about-stress techniques include journaling, therapy, support groups, and engaging in activities that promote self-reflection and self-awareness.",
+        "To start talking about stress, acknowledge your emotions, practice active listening, and focus on activities that promote emotional expression and well-being.",
+        "Remember that stress is a common experience, and it's important to communicate your feelings and needs to others. Be open and honest about your stress, seek support when needed, and prioritize activities that promote emotional expression and well-being."
+      ],
+      "id": 81
+    },
+    {
+      "tag": "feeling_better",
+      "patterns": [
+        "How can I feel better?",
+        "What are some feeling-better techniques?",
+        "I want to learn about feeling better",
+        "How do I start feeling better?",
+        "How can I improve my mood?",
+        "What are some strategies for improving mood?",
+        "I want to learn about feeling better and well-being",
+        "How do I start improving my mood?"
+      ],
+      "responses": [
+        "Feeling better involves self-care, self-awareness, seeking support, and engaging in activities that promote well-being and positivity.",
+        "Some feeling-better techniques include practicing gratitude, setting intentions, engaging in physical activity, and engaging in activities that bring you joy and fulfillment.",
+        "To start feeling better, focus on self-care, express gratitude, and engage in activities that promote well-being and positivity.",
+        "Remember that feeling better is a journey that takes time and effort. Be patient with yourself, seek support when needed, and prioritize activities that promote positivity and well-being."
+      ],
+      "id": 82
+    },
+    {
+      "tag": "improving_mental_health",
+      "patterns": [
+        "How can I improve my mental health?",
+        "What are some improving-mental-health techniques?",
+        "I want to learn about improving mental health",
+        "How do I start improving my mental health?",
+        "How can I take care of my mental health?",
+        "What are some strategies for taking care of mental health?",
+        "I want to learn about mental health and well-being",
+        "How do I start taking care of my mental health?"
+      ],
+      "responses": [
+        "Improving your mental health involves self-care, self-awareness, seeking support, and engaging in activities that promote well-being and emotional balance.",
+        "Some improving-mental-health techniques include practicing mindfulness, setting boundaries, seeking therapy, and engaging in activities that promote emotional regulation and self-compassion.",
+        "To start improving your mental health, prioritize self-care, practice self-awareness, and focus on activities that promote well-being and emotional balance.",
+        "Remember that mental health is an important aspect of your overall well-being, and it's essential to prioritize activities that promote emotional regulation and self-compassion. Be patient with yourself, seek support when needed, and prioritize activities that promote well-being and emotional balance."
+      ],
+      "id": 83
+    },
+    {
+      "tag": "mental_health_day",
+      "patterns": [
+        "How can I take a mental health day?",
+        "What are some mental-health-day techniques?",
+        "I want to learn about taking a mental health day",
+        "How do I start taking a mental health day?",
+        "How can I prioritize my mental health?",
+        "What are some strategies for prioritizing mental health?",
+        "I want to learn about mental health days and self-care",
+        "How do I start prioritizing my mental health?"
+      ],
+      "responses": [
+        "Taking a mental health day involves self-care, self-awareness, seeking support, and engaging in activities that promote relaxation and well-being.",
+        "Some mental-health-day techniques include setting boundaries, practicing mindfulness, engaging in self-care activities, and focusing on activities that promote relaxation and emotional balance.",
+        "To start taking a mental health day, prioritize self-care, communicate your needs, and focus on activities that promote relaxation and well-being.",
+        "Remember that mental health days are important for your overall well-being, and it's essential to prioritize activities that promote relaxation and emotional balance. Be patient with yourself, seek support when needed, and prioritize activities that promote self-care and well-being."
+      ],
+      "id": 84
+    },
+    {
+      "tag": "overcoming_obstacles",
+      "patterns": [
+        "How can I overcome obstacles?",
+        "What are some overcoming-obstacles techniques?",
+        "I want to learn about overcoming obstacles",
+        "How do I start overcoming obstacles?",
+        "How can I navigate challenges?",
+        "What are some strategies for navigating challenges?",
+        "I want to learn about overcoming obstacles and resilience",
+        "How do I start navigating challenges?"
+      ],
+      "responses": [
+        "Overcoming obstacles involves self-awareness, resilience, seeking support, and engaging in activities that promote problem-solving and growth.",
+        "Some overcoming-obstacles techniques include setting goals, developing a plan, seeking feedback, and engaging in activities that promote adaptability and resilience.",
+        "To start overcoming obstacles, acknowledge your challenges, set realistic goals, and focus on activities that promote problem-solving and growth.",
+        "Remember that obstacles are a natural part of life, and it's important to be patient and resilient as you navigate challenges and setbacks. Seek support when needed, and prioritize activities that promote adaptability and growth."
+      ],
+      "id": 85
+    },
+    {
+      "tag": "changing_perspectives",
+      "patterns": [
+        "How can I change my perspective?",
+        "What are some changing-perspectives techniques?",
+        "I want to learn about changing my perspective",
+        "How do I start changing my perspective?",
+        "How can I shift my mindset?",
+        "What are some strategies for shifting your mindset?",
+        "I want to learn about changing perspectives and growth",
+        "How do I start shifting my mindset?"
+      ],
+      "responses": [
+        "Changing your perspective involves self-awareness, self-reflection, seeking support, and engaging in activities that promote growth and personal development.",
+        "Some changing-perspectives techniques include journaling, mindfulness practices, seeking feedback, and engaging in activities that challenge your beliefs and assumptions.",
+        "To start changing your perspective, acknowledge your biases, practice self-reflection, and focus on activities that promote growth and personal development.",
+        "Remember that changing your perspective is a journey that takes time and self-awareness. Be open to new ideas and experiences, seek support when needed, and prioritize activities that challenge your beliefs and assumptions."
+      ],
+      "id": 86
+    },
+    {
+      "tag": "life_motivation",
+      "patterns": [
+        "How can I find motivation in life?",
+        "What are some life-motivation techniques?",
+        "I want to learn about finding motivation in life",
+        "How do I start finding motivation in life?",
+        "How can I stay motivated?",
+        "What are some strategies for staying motivated?",
+        "I want to learn about motivation and personal growth",
+        "How do I start staying motivated in life?"
+      ],
+      "responses": [
+        "Finding motivation in life involves self-awareness, goal-setting, seeking support, and engaging in activities that promote personal growth and fulfillment.",
+        "Some life-motivation techniques include setting SMART goals, practicing self-compassion, seeking feedback, and engaging in activities that bring you joy and fulfillment.",
+        "To start finding motivation in life, identify your values and passions, set realistic goals, and focus on activities that promote personal growth and fulfillment.",
+        "Remember that motivation is a powerful force that can help you achieve your goals and dreams. Be patient with yourself, seek support when needed, and prioritize activities that promote personal growth and fulfillment."
+      ],
+      "id": 87
+    },
+    {
+      "tag": "feeling_weak",
+      "patterns": [
+        "How can I cope with feeling weak?",
+        "What are some feeling-weak coping techniques?",
+        "I want to learn about coping with feeling weak",
+        "How do I start coping with feeling weak?",
+        "How can I regain strength?",
+        "What are some strategies for regaining strength?",
+        "I want to learn about feeling weak and empowerment",
+        "How do I start regaining strength?"
+      ],
+      "responses": [
+        "Coping with feeling weak involves self-awareness, self-compassion, seeking support, and engaging in activities that promote empowerment and resilience.",
+        "Some feeling-weak coping techniques include setting goals, practicing self-care, seeking support, and engaging in activities that promote self-efficacy and self-empowerment.",
+        "To start coping with feeling weak, acknowledge your emotions, practice self-compassion, and focus on activities that promote empowerment and resilience.",
+        "Remember that feeling weak is a common experience, but there are effective strategies for regaining a sense of strength and empowerment. Be patient with yourself, seek support when needed, and prioritize activities that promote self-efficacy and self-empowerment."
+      ],
+      "id": 88
+    },
+    {
+      "tag": "feeling_strong",
+      "patterns": [
+        "How can I feel strong?",
+        "What are some feeling-strong techniques?",
+        "I want to learn about feeling strong",
+        "How do I start feeling strong?",
+        "How can I build strength?",
+        "What are some strategies for building strength?",
+        "I want to learn about feeling strong and empowerment",
+        "How do I start building strength?"
+      ],
+      "responses": [
+        "Feeling strong involves self-awareness, self-compassion, seeking support, and engaging in activities that promote self-confidence and empowerment.",
+        "Some feeling-strong techniques include setting goals, practicing self-care, seeking feedback, and engaging in activities that promote self-efficacy and self-empowerment.",
+        "To start feeling strong, acknowledge your strengths, practice self-compassion, and focus on activities that promote self-confidence and empowerment.",
+        "Remember that feeling strong is a journey that takes time and self-awareness. Be patient with yourself, seek support when needed, and prioritize activities that promote self-efficacy and self-empowerment."
+      ],
+      "id": 89
+    },
+    {
+      "tag": "feeling_exhausted",
+      "patterns": [
+        "How can I cope with feeling exhausted?",
+        "What are some feeling-exhausted coping techniques?",
+        "I want to learn about coping with feeling exhausted",
+        "How do I start coping with feeling exhausted?",
+        "How can I regain energy?",
+        "What are some strategies for regaining energy?",
+        "I want to learn about feeling exhausted and self-care",
+        "How do I start regaining energy?"
+      ],
+      "responses": [
+        "Coping with feeling exhausted involves self-care, self-awareness, seeking support, and engaging in activities that promote rest and rejuvenation.",
+        "Some feeling-exhausted coping techniques include setting boundaries, practicing mindfulness, seeking therapy, and engaging in activities that promote relaxation and well-being.",
+        "To start coping with feeling exhausted, prioritize self-care, practice self-awareness, and focus on activities that promote rest and rejuvenation.",
+        "Remember that feeling exhausted is a sign that you need to rest and recharge. Be kind to yourself, seek support when needed, and prioritize activities that promote relaxation and well-being."
+      ],
+      "id": 90
+    },
+    {
+      "tag": "recovery_process",
+      "patterns": [
+        "How can I navigate the recovery process?",
+        "What are some recovery-process techniques?",
+        "I want to learn about navigating the recovery process",
+        "How do I start navigating the recovery process?",
+        "How can I heal from past experiences?",
+        "What are some strategies for healing from past experiences?",
+        "I want to learn about recovery and healing",
+        "How do I start healing from past experiences?"
+      ],
+      "responses": [
+        "Navigating the recovery process involves self-awareness, self-compassion, seeking support, and engaging in activities that promote healing and growth.",
+        "Some recovery-process techniques include setting boundaries, practicing self-care, seeking therapy, and engaging in activities that promote self-reflection and self-awareness.",
+        "To start navigating the recovery process, acknowledge your emotions, practice self-compassion, and focus on activities that promote healing and growth.",
+        "Remember that the recovery process is a journey that takes time and self-compassion. Be patient with yourself, seek support when needed, and prioritize activities that promote self-reflection and self-awareness."
+      ],
+      "id": 91
+    },
+    {
+      "tag": "help_seeking",
+      "patterns": [
+        "How can I seek help?",
+        "What are some help-seeking techniques?",
+        "I want to learn about seeking help",
+        "How do I start seeking help?",
+        "How can I ask for support?",
+        "What are some strategies for asking for support?",
+        "I want to learn about help-seeking and self-care",
+        "How do I start asking for support?"
+      ],
+      "responses": [
+        "Seeking help involves self-awareness, communication skills, seeking support, and engaging in activities that promote well-being and emotional balance.",
+        "Some help-seeking techniques include setting boundaries, practicing active listening, seeking therapy, and engaging in activities that promote self-care and self-compassion.",
+        "To start seeking help, acknowledge your needs, practice self-awareness, and focus on activities that promote well-being and emotional balance.",
+        "Remember that asking for support is a sign of strength, not weakness. Be open and honest about your needs, seek support when needed, and prioritize activities that promote self-care and self-compassion."
+      ],
+      "id": 92
+    },
+    {
+      "tag": "empathy",
+      "patterns": [
+        "How can I practice empathy?",
+        "What are some empathy techniques?",
+        "I want to learn about practicing empathy",
+        "How do I start practicing empathy?",
+        "How can I show compassion to others?",
+        "What are some strategies for showing compassion to others?",
+        "I want to learn about empathy and kindness",
+        "How do I start showing compassion to others?"
+      ],
+      "responses": [
+        "Practicing empathy involves self-awareness, active listening, seeking understanding, and engaging in activities that promote compassion and kindness.",
+        "Some empathy techniques include active listening, perspective-taking, seeking feedback, and engaging in activities that promote understanding and connection.",
+        "To start practicing empathy, be present with others, listen without judgment, and focus on activities that promote compassion and kindness.",
+        "Remember that empathy is a powerful tool that can help you connect with others and build meaningful relationships. Be open and compassionate in your interactions, seek understanding, and prioritize activities that promote kindness and connection."
+      ],
+      "id": 93
+    },
+    {
+      "tag": "trust_issues",
+      "patterns": [
+        "How can I overcome trust issues?",
+        "What are some trust-issues techniques?",
+        "I want to learn about overcoming trust issues",
+        "How do I start overcoming trust issues?",
+        "How can I build trust in relationships?",
+        "What are some strategies for building trust in relationships?",
+        "I want to learn about trust issues and communication",
+        "How do I start building trust in relationships?"
+      ],
+      "responses": [
+        "Overcoming trust issues involves self-awareness, communication skills, seeking support, and engaging in activities that promote trust and connection.",
+        "Some trust-issues techniques include setting boundaries, practicing active listening, seeking therapy, and engaging in activities that promote understanding and empathy.",
+        "To start overcoming trust issues, acknowledge your fears, practice open communication, and focus on activities that promote trust and connection.",
+        "Remember that trust is an essential component of healthy relationships, and it's important to be patient and compassionate as you navigate trust issues. Be open and honest about your feelings, seek support when needed, and prioritize activities that promote understanding and empathy."
+      ],
+      "id": 94
+    },
+    {
+      "tag": "anxiety_triggers",
+      "patterns": [
+        "How can I manage anxiety triggers?",
+        "What are some anxiety-triggers techniques?",
+        "I want to learn about managing anxiety triggers",
+        "How do I start managing anxiety triggers?",
+        "How can I cope with anxiety attacks?",
+        "What are some strategies for coping with anxiety attacks?",
+        "I want to learn about anxiety triggers and self-care",
+        "How do I start coping with anxiety attacks?"
+      ],
+      "responses": [
+        "Managing anxiety triggers involves self-awareness, self-regulation, seeking support, and engaging in activities that promote relaxation and emotional balance.",
+        "Some anxiety-triggers techniques include deep breathing exercises, mindfulness practices, setting boundaries, and engaging in activities that promote emotional regulation and self-compassion.",
+        "To start managing anxiety triggers, identify your triggers, practice self-regulation, and focus on activities that promote relaxation and emotional balance.",
+        "Remember that anxiety triggers are common experiences, but there are effective strategies for managing them. Be patient with yourself, seek support when needed, and prioritize activities that promote emotional regulation and self-compassion."
+      ],
+      "id": 95
+    },
+    {
+      "tag": "coping_with_anger",
+      "patterns": [
+        "How can I cope with anger?",
+        "What are some coping-with-anger techniques?",
+        "I want to learn about coping with anger",
+        "How do I start coping with anger?",
+        "How can I manage my anger?",
+        "What are some strategies for managing anger?",
+        "I want to learn about anger management and self-regulation",
+        "How do I start managing my anger?"
+      ],
+      "responses": [
+        "Coping with anger involves self-awareness, self-regulation, seeking support, and engaging in activities that promote emotional regulation and forgiveness.",
+        "Some coping-with-anger techniques include deep breathing exercises, mindfulness practices, setting boundaries, and practicing forgiveness and empathy.",
+        "To start coping with anger, acknowledge your emotions, practice self-regulation, and focus on healthy ways to express and release your anger.",
+        "Remember that anger is a normal emotion, but it's important to manage it in healthy and constructive ways. Be patient with yourself, seek support when needed, and prioritize activities that promote emotional regulation and forgiveness."
+      ],
+      "id": 96
+    },
+    {
+      "tag": "emotional_regulation",
+      "patterns": [
+        "How can I regulate my emotions?",
+        "What are some emotional-regulation techniques?",
+        "I want to learn about regulating my emotions",
+        "How do I start regulating my emotions?",
+        "How can I manage my feelings?",
+        "What are some strategies for managing feelings?",
+        "I want to learn about emotional regulation and self-awareness",
+        "How do I start managing my feelings?"
+      ],
+      "responses": [
+        "Regulating your emotions involves self-awareness, self-regulation, seeking support, and engaging in activities that promote emotional balance and well-being.",
+        "Some emotional-regulation techniques include deep breathing exercises, mindfulness practices, setting boundaries, and engaging in activities that promote self-compassion and self-awareness.",
+        "To start regulating your emotions, acknowledge your feelings, practice self-regulation, and focus on activities that promote emotional balance and well-being.",
+        "Remember that emotional regulation is an important skill that can help you navigate challenges and setbacks. Be patient with yourself, seek support when needed, and prioritize activities that promote self-compassion and self-awareness."
+      ],
+      "id": 97
+    },
+    {
+      "tag": "feeling_rejected",
+      "patterns": [
+        "How can I cope with feeling rejected?",
+        "What are some feeling-rejected coping techniques?",
+        "I want to learn about coping with feeling rejected",
+        "How do I start coping with feeling rejected?",
+        "How can I overcome rejection?",
+        "What are some strategies for overcoming rejection?",
+        "I want to learn about feeling rejected and self-compassion",
+        "How do I start overcoming rejection?"
+      ],
+      "responses": [
+        "Coping with feeling rejected involves self-awareness, self-compassion, seeking support, and engaging in activities that promote self-acceptance and resilience.",
+        "Some feeling-rejected coping techniques include practicing self-compassion, setting boundaries, seeking therapy, and engaging in activities that promote self-care and self-acceptance.",
+        "To start coping with feeling rejected, acknowledge your emotions, practice self-compassion, and focus on activities that promote self-acceptance and resilience.",
+        "Remember that rejection is a common experience, but it's important to be patient and compassionate with yourself as you navigate feelings of rejection. Seek support when needed, and prioritize activities that promote self-care and self-acceptance."
+      ],
+      "id": 98
+    },
+    {
+      "tag": "feeling_unworthy",
+      "patterns": [
+        "How can I cope with feeling unworthy?",
+        "What are some feeling-unworthy coping techniques?",
+        "I want to learn about coping with feeling unworthy",
+        "How do I start coping with feeling unworthy?",
+        "How can I overcome feelings of unworthiness?",
+        "What are some strategies for overcoming feelings of unworthiness?",
+        "I want to learn about feeling unworthy and self-compassion",
+        "How do I start overcoming feelings of unworthiness?"
+      ],
+      "responses": [
+        "Coping with feeling unworthy involves self-awareness, self-compassion, seeking support, and engaging in activities that promote self-acceptance and self-worth.",
+        "Some feeling-unworthy coping techniques include practicing self-compassion, setting boundaries, seeking therapy, and engaging in activities that promote self-care and self-acceptance.",
+        "To start coping with feeling unworthy, acknowledge your emotions, practice self-compassion, and focus on activities that promote self-acceptance and self-worth.",
+        "Remember that feelings of unworthiness are common, but it's important to be patient and compassionate with yourself as you navigate these emotions. Seek support when needed, and prioritize activities that promote self-care and self-acceptance."
+      ],
+      "id": 99
+    },
+    {
+      "tag": "self_compassion",
+      "patterns": [
+        "How can I practice self-compassion?",
+        "What are some self-compassion techniques?",
+        "I want to learn about practicing self-compassion",
+        "How do I start practicing self-compassion?",
+        "How can I be kind to myself?",
+        "What are some strategies for being kind to yourself?",
+        "I want to learn about self-compassion and self-care",
+        "How do I start being kind to myself?"
+      ],
+      "responses": [
+        "Practicing self-compassion involves self-awareness, self-kindness, seeking support, and engaging in activities that promote self-care and well-being.",
+        "Some self-compassion techniques include positive self-talk, setting boundaries, seeking therapy, and engaging in activities that promote self-acceptance and self-care.",
+        "To start practicing self-compassion, acknowledge your emotions, practice self-kindness, and focus on activities that promote self-care and well-being.",
+        "Remember that self-compassion is a powerful tool that can help you navigate challenges and setbacks. Be patient with yourself, seek support when needed, and prioritize activities that promote self-acceptance and self-care."
+      ],
+      "id": 100
+    },
+    {
+      "tag": "mindful_eating",
+      "patterns": [
+        "How can I practice mindful eating?",
+        "What are some mindful-eating techniques?",
+        "I want to learn about practicing mindful eating",
+        "How do I start practicing mindful eating?",
+        "How can I eat mindfully?",
+        "What are some strategies for eating mindfully?",
+        "I want to learn about mindful eating and self-care",
+        "How do I start eating mindfully?"
+      ],
+      "responses": [
+        "Practicing mindful eating involves self-awareness, self-regulation, seeking support, and engaging in activities that promote healthy eating habits and well-being.",
+        "Some mindful-eating techniques include eating slowly, savoring your food, setting intentions, and engaging in activities that promote self-regulation and self-care.",
+        "To start practicing mindful eating, be present with your meals, listen to your body's hunger cues, and focus on activities that promote healthy eating habits and well-being.",
+        "Remember that mindful eating is a valuable practice that can help you develop a healthy relationship with food. Be patient with yourself, seek support when needed, and prioritize activities that promote self-regulation and self-care."
+      ],
+      "id": 101
+    },
+    {
+      "tag": "letting_others_in",
+      "patterns": [
+        "How can I let others in?",
+        "What are some letting-others-in techniques?",
+        "I want to learn about letting others in",
+        "How do I start letting others in?",
+        "How can I open up to others?",
+        "What are some strategies for opening up to others?",
+        "I want to learn about letting others in and communication",
+        "How do I start opening up to others?"
+      ],
+      "responses": [
+        "Letting others in involves self-awareness, communication skills, seeking support, and engaging in activities that promote vulnerability and connection.",
+        "Some letting-others-in techniques include active listening, setting boundaries, seeking therapy, and engaging in activities that promote trust and understanding.",
+        "To start letting others in, be open and honest about your feelings, practice active listening, and focus on activities that promote vulnerability and connection.",
+        "Remember that letting others in is a sign of strength and courage. Be open to new experiences and connections, seek support when needed, and prioritize activities that promote trust and understanding."
+      ],
+      "id": 102
+    },
+    {
+      "tag": "feeling_connected",
+      "patterns": [
+        "How can I feel connected to others?",
+        "What are some feeling-connected techniques?",
+        "I want to learn about feeling connected to others",
+        "How do I start feeling connected to others?",
+        "How can I build relationships?",
+        "What are some strategies for building relationships?",
+        "I want to learn about feeling connected and communication",
+        "How do I start building relationships?"
+      ],
+      "responses": [
+        "Feeling connected to others involves self-awareness, communication skills, seeking support, and engaging in activities that promote empathy and understanding.",
+        "Some feeling-connected techniques include active listening, setting boundaries, seeking therapy, and engaging in activities that promote trust and connection.",
+        "To start feeling connected to others, be present in your interactions, practice empathy, and focus on activities that promote understanding and connection.",
+        "Remember that feeling connected is a valuable experience that can help you build meaningful relationships. Be open and compassionate in your interactions, seek support when needed, and prioritize activities that promote trust and understanding."
+      ],
+      "id": 103
+    },
+    {
+      "tag": "healing_wounds",
+      "patterns": [
+        "How can I heal emotional wounds?",
+        "What are some healing-wounds techniques?",
+        "I want to learn about healing emotional wounds",
+        "How do I start healing emotional wounds?",
+        "How can I overcome past traumas?",
+        "What are some strategies for overcoming past traumas?",
+        "I want to learn about healing wounds and self-compassion",
+        "How do I start overcoming past traumas?"
+      ],
+      "responses": [
+        "Healing emotional wounds involves self-awareness, self-compassion, seeking support, and engaging in activities that promote self-acceptance and growth.",
+        "Some healing-wounds techniques include therapy, journaling, setting boundaries, and engaging in activities that promote self-care and self-compassion.",
+        "To start healing emotional wounds, acknowledge your pain, practice self-compassion, and focus on activities that promote self-acceptance and growth.",
+        "Remember that healing emotional wounds is a journey that takes time and self-compassion. Be patient with yourself, seek support when needed, and prioritize activities that promote self-care and self-acceptance."
+      ],
+      "id": 104
+    },
+    {
+      "tag": "mental_clarity",
+      "patterns": [
+        "How can I achieve mental clarity?",
+        "What are some mental-clarity techniques?",
+        "I want to learn about achieving mental clarity",
+        "How do I start achieving mental clarity?",
+        "How can I clear my mind?",
+        "What are some strategies for clearing your mind?",
+        "I want to learn about mental clarity and mindfulness",
+        "How do I start clearing my mind?"
+      ],
+      "responses": [
+        "Achieving mental clarity involves self-awareness, mindfulness practices, seeking support, and engaging in activities that promote focus and relaxation.",
+        "Some mental-clarity techniques include meditation, deep breathing exercises, setting intentions, and engaging in activities that promote self-regulation and self-awareness.",
+        "To start achieving mental clarity, practice mindfulness, be present in the moment, and focus on activities that promote focus and relaxation.",
+        "Remember that mental clarity is a valuable state that can help you navigate challenges and setbacks. Be patient with yourself, seek support when needed, and prioritize activities that promote self-regulation and self-awareness."
+      ],
+      "id": 105
+    },
+    {
+      "tag": "emotional_boundaries",
+      "patterns": [
+        "How can I set emotional boundaries?",
+        "What are some emotional-boundaries techniques?",
+        "I want to learn about setting emotional boundaries",
+        "How do I start setting emotional boundaries?",
+        "How can I protect my emotional space?",
+        "What are some strategies for protecting your emotional space?",
+        "I want to learn about emotional boundaries and self-care",
+        "How do I start protecting my emotional space?"
+      ],
+      "responses": [
+        "Setting emotional boundaries involves self-awareness, communication skills, seeking support, and engaging in activities that promote self-care and well-being.",
+        "Some emotional-boundaries techniques include setting limits, practicing assertiveness, seeking therapy, and engaging in activities that promote self-compassion and self-awareness.",
+        "To start setting emotional boundaries, be clear about your needs, practice assertiveness, and focus on activities that promote self-care and well-being.",
+        "Remember that emotional boundaries are essential for your well-being and relationships. Be assertive in communicating your needs, seek support when needed, and prioritize activities that promote self-compassion and self-awareness."
+      ],
+      "id": 106
+    },
+    {
+      "tag": "inner_strength",
+      "patterns": [
+        "How can I build inner strength?",
+        "What are some inner-strength techniques?",
+        "I want to learn about building inner strength",
+        "How do I start building inner strength?",
+        "How can I cultivate resilience?",
+        "What are some strategies for cultivating resilience?",
+        "I want to learn about inner strength and self-empowerment",
+        "How do I start cultivating resilience?"
+      ],
+      "responses": [
+        "Building inner strength involves self-awareness, self-compassion, seeking support, and engaging in activities that promote self-empowerment and resilience.",
+        "Some inner-strength techniques include setting goals, practicing self-care, seeking feedback, and engaging in activities that promote self-acceptance and self-empowerment.",
+        "To start building inner strength, acknowledge your strengths, practice self-compassion, and focus on activities that promote self-empowerment and resilience.",
+        "Remember that inner strength is a valuable quality that can help you navigate challenges and setbacks. Be patient with yourself, seek support when needed, and prioritize activities that promote self-acceptance and self-empowerment."
+      ],
+      "id": 107
+    },
+    {
+      "tag": "self_trust",
+      "patterns": [
+        "How can I build self-trust?",
+        "What are some self-trust techniques?",
+        "I want to learn about building self-trust",
+        "How do I start building self-trust?",
+        "How can I trust myself?",
+        "What are some strategies for trusting yourself?",
+        "I want to learn about self-trust and self-awareness",
+        "How do I start trusting myself?"
+      ],
+      "responses": [
+        "Building self-trust involves self-awareness, self-compassion, seeking support, and engaging in activities that promote self-acceptance and self-confidence.",
+        "Some self-trust techniques include setting boundaries, practicing self-care, seeking therapy, and engaging in activities that promote self-empowerment and self-awareness.",
+        "To start building self-trust, acknowledge your strengths, practice self-compassion, and focus on activities that promote self-acceptance and self-confidence.",
+        "Remember that self-trust is an important aspect of self-confidence and well-being. Be patient with yourself, seek support when needed, and prioritize activities that promote self-empowerment and self-awareness."
+      ],
+      "id": 108
+    },
+    {
+      "tag": "calm_heart",
+      "patterns": [
+        "How can I calm my heart?",
+        "What are some calm-heart techniques?",
+        "I want to learn about calming my heart",
+        "How do I start calming my heart?",
+        "How can I soothe my emotions?",
+        "What are some strategies for soothing emotions?",
+        "I want to learn about calming the heart and self-regulation",
+        "How do I start soothing my emotions?"
+      ],
+      "responses": [
+        "Calming your heart involves self-awareness, self-regulation, seeking support, and engaging in activities that promote relaxation and emotional balance.",
+        "Some calm-heart techniques include deep breathing exercises, mindfulness practices, setting boundaries, and engaging in activities that promote self-compassion and self-awareness.",
+        "To start calming your heart, acknowledge your emotions, practice self-regulation, and focus on activities that promote relaxation and emotional balance.",
+        "Remember that calming your heart is a valuable practice that can help you navigate stress and anxiety. Be patient with yourself, seek support when needed, and prioritize activities that promote self-compassion and self-awareness."
+      ],
+      "id": 109
+    },
+    {
+      "tag": "dealing_with_doubts",
+      "patterns": [
+        "How can I deal with doubts?",
+        "What are some dealing-with-doubts techniques?",
+        "I want to learn about dealing with doubts",
+        "How do I start dealing with doubts?",
+        "How can I overcome self-doubt?",
+        "What are some strategies for overcoming self-doubt?",
+        "I want to learn about dealing with doubts and self-acceptance",
+        "How do I start overcoming self-doubt?"
+      ],
+      "responses": [
+        "Dealing with doubts involves self-awareness, self-compassion, seeking support, and engaging in activities that promote self-acceptance and self-confidence.",
+        "Some dealing-with-doubts techniques include positive self-talk, setting boundaries, seeking therapy, and engaging in activities that promote self-empowerment and self-awareness.",
+        "To start dealing with doubts, acknowledge your fears, practice self-compassion, and focus on activities that promote self-acceptance and self-confidence.",
+        "Remember that self-doubt is a common experience, but it's important to be patient and compassionate with yourself as you navigate feelings of doubt. Seek support when needed, and prioritize activities that promote self-empowerment and self-awareness."
+      ],
+      "id": 110
+    },
+    {
+      "tag": "mental_health_stigma",
+      "patterns": [
+        "How can I overcome mental health stigma?",
+        "What are some mental-health-stigma techniques?",
+        "I want to learn about overcoming mental health stigma",
+        "How do I start overcoming mental health stigma?",
+        "How can I reduce mental health stigma?",
+        "What are some strategies for reducing mental health stigma?",
+        "I want to learn about mental health stigma and self-acceptance",
+        "How do I start reducing mental health stigma?"
+      ],
+      "responses": [
+        "Overcoming mental health stigma involves self-awareness, education, seeking support, and engaging in activities that promote empathy and understanding.",
+        "Some mental-health-stigma techniques include advocacy, education, seeking therapy, and engaging in activities that promote self-compassion and self-awareness.",
+        "To start overcoming mental health stigma, be open and honest about your experiences, educate yourself and others, and focus on activities that promote empathy and understanding.",
+        "Remember that mental health stigma is a societal issue that can be addressed through education, advocacy, and compassion. Be patient with yourself, seek support when needed, and prioritize activities that promote self-compassion and self-awareness."
+      ],
+      "id": 111
+    },
+    {
+      "tag": "doubts_and_fears",
+      "patterns": [
+        "How can I overcome doubts and fears?",
+        "What are some doubts-and-fears techniques?",
+        "I want to learn about overcoming doubts and fears",
+        "How do I start overcoming doubts and fears?",
+        "How can I face my fears?",
+        "What are some strategies for facing fears?",
+        "I want to learn about doubts and fears and self-compassion",
+        "How do I start facing fears?"
+      ],
+      "responses": [
+        "Overcoming doubts and fears involves self-awareness, self-compassion, seeking support, and engaging in activities that promote self-acceptance and courage.",
+        "Some doubts-and-fears techniques include exposure therapy, positive self-talk, seeking therapy, and engaging in activities that promote self-empowerment and self-awareness.",
+        "To start overcoming doubts and fears, acknowledge your emotions, practice self-compassion, and focus on activities that promote self-acceptance and courage.",
+        "Remember that doubts and fears are common experiences, but it's important to be patient and compassionate with yourself as you navigate these emotions. Seek support when needed, and prioritize activities that promote self-empowerment and self-awareness."
+      ],
+      "id": 112
+    },
+    {
+      "tag": "self_acceptance",
+      "patterns": [
+        "How can I practice self-acceptance?",
+        "What are some self-acceptance techniques?",
+        "I want to learn about practicing self-acceptance",
+        "How do I start practicing self-acceptance?",
+        "How can I accept myself?",
+        "What are some strategies for accepting yourself?",
+        "I want to learn about self-acceptance and self-compassion",
+        "How do I start accepting myself?"
+      ],
+      "responses": [
+        "Practicing self-acceptance involves self-awareness, self-compassion, seeking support, and engaging in activities that promote self-empowerment and self-worth.",
+        "Some self-acceptance techniques include positive self-talk, setting boundaries, seeking therapy, and engaging in activities that promote self-care and self-awareness.",
+        "To start practicing self-acceptance, acknowledge your strengths and weaknesses, practice self-compassion, and focus on activities that promote self-empowerment and self-worth.",
+        "Remember that self-acceptance is a journey that takes time and self-compassion. Be patient with yourself, seek support when needed, and prioritize activities that promote self-care and self-awareness."
+      ],
+      "id": 113
+    },
+    {
+      "tag": "embracing_change",
+      "patterns": [
+        "How can I embrace change?",
+        "What are some embracing-change techniques?",
+        "I want to learn about embracing change",
+        "How do I start embracing change?",
+        "How can I adapt to change?",
+        "What are some strategies for adapting to change?",
+        "I want to learn about embracing change and self-awareness",
+        "How do I start adapting to change?"
+      ],
+      "responses": [
+        "Embracing change involves self-awareness, flexibility, seeking support, and engaging in activities that promote adaptability and growth.",
+        "Some embracing-change techniques include positive self-talk, setting goals, seeking therapy, and engaging in activities that promote self-empowerment and self-awareness.",
+        "To start embracing change, acknowledge your emotions, practice flexibility, and focus on activities that promote adaptability and growth.",
+        "Remember that change is a natural part of life, and it's important to be open and adaptable as you navigate transitions. Be patient with yourself, seek support when needed, and prioritize activities that promote self-empowerment and self-awareness."
+      ],
+      "id": 114
+    },
+    {
+      "tag": "personal_boundaries",
+      "patterns": [
+        "How can I set personal boundaries?",
+        "What are some personal-boundaries techniques?",
+        "I want to learn about setting personal boundaries",
+        "How do I start setting personal boundaries?",
+        "How can I protect my personal space?",
+        "What are some strategies for protecting your personal space?",
+        "I want to learn about personal boundaries and self-care",
+        "How do I start protecting my personal space?"
+      ],
+      "responses": [
+        "Setting personal boundaries involves self-awareness, communication skills, seeking support, and engaging in activities that promote self-care and well-being.",
+        "Some personal-boundaries techniques include setting limits, practicing assertiveness, seeking therapy, and engaging in activities that promote self-compassion and self-awareness.",
+        "To start setting personal boundaries, be clear about your needs, practice assertiveness, and focus on activities that promote self-care and well-being.",
+        "Remember that personal boundaries are essential for your well-being and relationships. Be assertive in communicating your needs, seek support when needed, and prioritize activities that promote self-compassion and self-awareness."
+      ],
+      "id": 115
+    },
+    {
+      "tag": "self_awareness",
+      "patterns": [
+        "How can I practice self-awareness?",
+        "What are some self-awareness techniques?",
+        "I want to learn about practicing self-awareness",
+        "How do I start practicing self-awareness?",
+        "How can I be more self-aware?",
+        "What are some strategies for being more self-aware?",
+        "I want to learn about self-awareness and self-compassion",
+        "How do I start being more self-aware?"
+      ],
+      "responses": [
+        "Practicing self-awareness involves mindfulness, reflection, seeking feedback, and engaging in activities that promote self-compassion and self-growth.",
+        "Some self-awareness techniques include journaling, meditation, setting intentions, and engaging in activities that promote self-reflection and self-acceptance.",
+        "To start practicing self-awareness, be present in the moment, reflect on your thoughts and emotions, and focus on activities that promote self-compassion and self-growth.",
+        "Remember that self-awareness is a valuable skill that can help you navigate challenges and setbacks. Be patient with yourself, seek support when needed, and prioritize activities that promote self-reflection and self-acceptance."
+      ],
+      "id": 116
+    },
+    {
+      "tag": "emotional_balance",
+      "patterns": [
+        "How can I achieve emotional balance?",
+        "What are some emotional-balance techniques?",
+        "I want to learn about achieving emotional balance",
+        "How do I start achieving emotional balance?",
+        "How can I manage my emotions?",
+        "What are some strategies for managing emotions?",
+        "I want to learn about emotional balance and self-regulation",
+        "How do I start managing my emotions?",
+        "How can I balance my emotions?"
+      ],
+      "responses": [
+        "Achieving emotional balance involves self-awareness, self-regulation, seeking support, and engaging in activities that promote relaxation and emotional well-being.",
+        "Some emotional-balance techniques include deep breathing exercises, mindfulness practices, setting boundaries, and engaging in activities that promote self-compassion and self-awareness.",
+        "To start achieving emotional balance, acknowledge your emotions, practice self-regulation, and focus on activities that promote relaxation and emotional well-being.",
+        "Remember that emotional balance is a valuable state that can help you navigate stress and anxiety. Be patient with yourself, seek support when needed, and prioritize activities that promote self-compassion and self-awareness."
+      ],
+      "id": 117
+    },
+    {
+      "tag": "building_courage",
+      "patterns": [
+        "How can I build courage?",
+        "What are some building-courage techniques?",
+        "I want to learn about building courage",
+        "How do I start building courage?",
+        "How can I be more courageous?",
+        "What are some strategies for being more courageous?",
+        "I want to learn about building courage and self-empowerment",
+        "How do I start being more courageous?"
+      ],
+      "responses": [
+        "Building courage involves self-awareness, self-compassion, seeking support, and engaging in activities that promote self-empowerment and resilience.",
+        "Some building-courage techniques include setting goals, practicing self-care, seeking therapy, and engaging in activities that promote self-acceptance and self-awareness.",
+        "To start building courage, acknowledge your fears, practice self-compassion, and focus on activities that promote self-empowerment and resilience.",
+        "Remember that courage is a valuable quality that can help you face challenges and setbacks. Be patient with yourself, seek support when needed, and prioritize activities that promote self-acceptance and self-awareness."
+      ],
+      "id": 118
+    },
+    {
+      "tag": "feeling_hopeless",
+      "patterns": [
+        "I feel hopeless",
+        "I have no hope",
+        "Everything seems pointless",
+        "I can't see a way out",
+        "I feel like giving up"
+      ],
+      "responses": [
+        "It's important to remember that feelings of hopelessness can be overwhelming, but there is always hope. Reach out for support and take small steps towards finding light in the darkness.",
+        "Feeling hopeless can be very challenging, but talking to someone you trust can help. Remember that you are not alone and there are people who care about you.",
+        "When everything seems pointless, it can be helpful to focus on small, positive actions you can take each day. Seek support from loved ones or a mental health professional.",
+        "It's okay to feel like giving up sometimes, but it's important to reach out for help. There are people who want to support you and help you find hope again."
+      ],
+      "id": 119
+    },
+    {
+      "tag": "talking_about_emotions",
+      "patterns": [
+        "How can I talk about my emotions?",
+        "I find it hard to express my feelings",
+        "How do I open up about my emotions?",
+        "I want to talk about my feelings but don't know how"
+      ],
+      "responses": [
+        "Talking about your emotions can be difficult, but it's a crucial step towards healing. Start by finding a safe and supportive person to share your feelings with.",
+        "Expressing your feelings can be challenging, but writing them down in a journal can be a good first step. You can also practice talking about your emotions with a trusted friend or therapist.",
+        "Opening up about your emotions takes courage. Begin by identifying your feelings and then share them with someone you trust. Remember, it's okay to take it one step at a time.",
+        "If you want to talk about your feelings but don't know how, try starting with small, simple statements about how you're feeling. Over time, it will become easier to express your emotions."
+      ],
+      "id": 120
+    },
+    {
+      "tag": "disappointment",
+      "patterns": [
+        "I feel disappointed",
+        "How do I deal with disappointment?",
+        "I'm struggling with disappointment",
+        "Disappointment is hard to handle"
+      ],
+      "responses": [
+        "Feeling disappointed is a natural part of life. It's important to acknowledge your feelings and give yourself time to process them.",
+        "Dealing with disappointment can be tough, but try to focus on what you can learn from the experience. Seek support from friends or a therapist to help you navigate your feelings.",
+        "When struggling with disappointment, it can be helpful to talk about your feelings with someone you trust. Remember that it's okay to feel disappointed and that you can work through it.",
+        "Handling disappointment can be challenging, but practicing self-compassion and focusing on positive aspects of your life can help. Reach out for support if you need it."
+      ],
+      "id": 121
+    },
+    {
+      "tag": "lifestyle_changes",
+      "patterns": [
+        "How can I make positive lifestyle changes?",
+        "I want to change my lifestyle",
+        "What are some healthy lifestyle changes?",
+        "How do I start living a healthier life?"
+      ],
+      "responses": [
+        "Making positive lifestyle changes starts with setting realistic goals and taking small steps towards achieving them. Focus on one change at a time and build from there.",
+        "If you want to change your lifestyle, start by identifying areas you want to improve and create a plan to address them. Seek support from friends, family, or a professional if needed.",
+        "Healthy lifestyle changes can include improving your diet, increasing physical activity, getting enough sleep, and managing stress. Start with small, manageable changes and gradually build on them.",
+        "To start living a healthier life, set specific, achievable goals and create a routine that supports your well-being. Remember to be patient with yourself and celebrate your progress along the way."
+      ],
+      "id": 122
+    },
+    {
+      "tag": "insecurity",
+      "patterns": [
+        "I feel insecure",
+        "How can I overcome insecurity?",
+        "I'm struggling with insecurity",
+        "Insecurity is affecting my life"
+      ],
+      "responses": [
+        "Feeling insecure is a common experience, but it's important to challenge negative thoughts and focus on your strengths. Seek support from loved ones or a therapist to help build your confidence.",
+        "Overcoming insecurity involves recognizing and challenging negative self-beliefs. Practice self-compassion and surround yourself with supportive people who uplift you.",
+        "When struggling with insecurity, it can be helpful to talk about your feelings with someone you trust. Remember that everyone has insecurities, and you are not alone.",
+        "Insecurity can affect your life in many ways, but working on building self-esteem and practicing self-care can help. Seek support from a therapist if needed."
+      ],
+      "id": 123
+    },
+    {
+      "tag": "chronic_stress",
+      "patterns": [
+        "I'm dealing with chronic stress",
+        "How can I manage chronic stress?",
+        "Chronic stress is overwhelming",
+        "I feel constantly stressed"
+      ],
+      "responses": [
+        "Managing chronic stress involves identifying stressors and developing healthy coping strategies. Practice relaxation techniques, such as deep breathing or mindfulness, and seek support from a therapist if needed.",
+        "Dealing with chronic stress can be challenging, but it's important to prioritize self-care and set boundaries to protect your well-being. Reach out for support from loved ones or a professional.",
+        "When chronic stress feels overwhelming, try to break tasks into smaller, manageable steps and focus on one thing at a time. Practice self-compassion and seek support if needed.",
+        "Feeling constantly stressed can take a toll on your health. Make time for activities that bring you joy and relaxation, and consider talking to a therapist to develop effective stress management strategies."
+      ],
+      "id": 124
+    },
+    {
+      "tag": "mental_fatigue",
+      "patterns": [
+        "I feel mentally exhausted",
+        "How can I cope with mental fatigue?",
+        "Mental fatigue is affecting my life",
+        "I'm struggling with mental exhaustion"
+      ],
+      "responses": [
+        "Coping with mental fatigue involves prioritizing rest and self-care. Take breaks, practice relaxation techniques, and seek support from loved ones or a therapist.",
+        "Mental fatigue can be challenging, but it's important to listen to your body and mind. Make time for activities that help you recharge and seek support if needed.",
+        "When mental fatigue is affecting your life, try to simplify your tasks and focus on one thing at a time. Practice self-compassion and reach out for support if needed.",
+        "Struggling with mental exhaustion can be overwhelming, but taking small steps towards self-care and seeking support from a therapist can help you manage your fatigue."
+      ],
+      "id": 125
+    },
+    {
+      "tag": "feeling_burned_out",
+      "patterns": [
+        "I feel burned out",
+        "How can I recover from burnout?",
+        "Burnout is affecting my life",
+        "I'm struggling with burnout"
+      ],
+      "responses": [
+        "Recovering from burnout involves prioritizing self-care and setting boundaries to protect your well-being. Take breaks, practice relaxation techniques, and seek support from loved ones or a therapist.",
+        "Burnout can be challenging, but it's important to listen to your body and mind. Make time for activities that help you recharge and seek support if needed.",
+        "When burnout is affecting your life, try to simplify your tasks and focus on one thing at a time. Practice self-compassion and reach out for support if needed.",
+        "Struggling with burnout can be overwhelming, but taking small steps towards self-care and seeking support from a therapist can help you manage your fatigue."
+      ],
+      "id": 126
+    },
+    {
+      "tag": "finding_inner_peace",
+      "patterns": [
+        "How can I find inner peace?",
+        "I want to feel more at peace",
+        "What are some techniques for finding inner peace?",
+        "How do I achieve inner peace?"
+      ],
+      "responses": [
+        "Finding inner peace involves practicing mindfulness, self-compassion, and engaging in activities that bring you joy and relaxation. Take time to reflect on what brings you peace and make it a priority.",
+        "To feel more at peace, focus on the present moment and let go of worries about the past or future. Practice gratitude and seek support from loved ones or a therapist.",
+        "Techniques for finding inner peace include meditation, deep breathing exercises, and spending time in nature. Find what works best for you and make it a regular part of your routine.",
+        "Achieving inner peace is a journey that involves self-awareness and self-compassion. Be patient with yourself and prioritize activities that promote relaxation and well-being."
+      ],
+      "id": 127
+    },
+    {
+      "tag": "struggling_with_life",
+      "patterns": [
+        "I'm struggling with life",
+        "Life feels overwhelming",
+        "How can I cope with life's challenges?",
+        "I don't know how to handle life right now"
+      ],
+      "responses": [
+        "Struggling with life can be very challenging, but it's important to reach out for support. Talk to someone you trust or seek help from a therapist to navigate your feelings.",
+        "When life feels overwhelming, try to break tasks into smaller, manageable steps and focus on one thing at a time. Practice self-compassion and seek support if needed.",
+        "Coping with life's challenges involves developing healthy coping strategies and seeking support from loved ones or a therapist. Remember that you don't have to face everything alone.",
+        "If you don't know how to handle life right now, take small steps towards self-care and reach out for support. Talking to a therapist can help you develop effective coping strategies."
+      ],
+      "id": 128
+    },
+    {
+      "tag": "building_self_worth",
+      "patterns": [
+        "How can I build my self-worth?",
+        "I want to feel more worthy",
+        "What are some techniques for building self-worth?",
+        "How do I improve my self-worth?"
+      ],
+      "responses": [
+        "Building self-worth involves recognizing your strengths and practicing self-compassion. Focus on your achievements and surround yourself with supportive people.",
+        "To feel more worthy, challenge negative self-beliefs and replace them with positive affirmations. Seek support from loved ones or a therapist to help build your confidence.",
+        "Techniques for building self-worth include setting realistic goals, celebrating your achievements, and practicing self-care. Remember that you are valuable and deserving of love and respect.",
+        "Improving self-worth is a journey that involves self-awareness and self-compassion. Be patient with yourself and prioritize activities that promote self-acceptance and self-love."
+      ],
+      "id": 129
+    },
+    {
+      "tag": "breaking_the_cycle",
+      "patterns": [
+        "How can I break the cycle of negative thoughts?",
+        "I'm stuck in a cycle of negativity",
+        "What are some techniques for breaking negative cycles?",
+        "How do I stop negative thinking patterns?"
+      ],
+      "responses": [
+        "Breaking the cycle of negative thoughts involves recognizing and challenging negative self-beliefs. Practice positive self-talk and seek support from a therapist if needed.",
+        "If you're stuck in a cycle of negativity, try to focus on positive aspects of your life and practice gratitude. Surround yourself with supportive people who uplift you.",
+        "Techniques for breaking negative cycles include mindfulness practices, cognitive-behavioral techniques, and engaging in activities that bring you joy and fulfillment.",
+        "Stopping negative thinking patterns involves self-awareness and self-compassion. Be patient with yourself and seek support from a therapist to develop effective strategies."
+      ],
+      "id": 130
+    },
+    {
+      "tag": "fact-1",
+      "patterns": [
+        "What is mental health?",
+        "Define Mental Health"
+      ],
+      "responses": [
+        "Mental health is a state of well-being in which the individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to his or her community",
+        "Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make choices."
+      ],
+      "id": 131
+    },
+    {
+      "tag": "fact-2",
+      "patterns": [
+        "Why is mental health important?",
+        "What is the importance of mental health?"
+      ],
+      "responses": [
+        "Maintaining mental health is crucial to stabilizing constructive behaviors, emotions, and thoughts. Focusing on mental health care can increase productivity, enhance our self-image, and improve relationships."
+      ],
+      "id": 132
+    },
+    {
+      "tag": "fact-3",
+      "patterns": [
+        "What is Depression?",
+        "Define Depression"
+      ],
+      "responses": [
+        "A mental health disorder characterised by persistently depressed mood or loss of interest in activities, causing significant impairment in daily life."
+      ],
+      "id": 133
+    },
+    {
+      "tag": "fact-5",
+      "patterns": [
+        "How do i know if i have Depression?",
+        "Am i depressed?",
+        "Am i suffering from depression?",
+        "Am i mentally ill?"
+      ],
+      "responses": [
+        "For a diagnosis of depression, a person needs to have experienced low mood or loss of interest or pleasure in life for at least 2 weeks. Also, they will have experienced the following symptoms: feelings of sadness, hopelessness, or irritability nearly every day."
+      ],
+      "id": 134
+    },
+    {
+      "tag": "fact-6",
+      "patterns": [
+        "What is a therapist?",
+        "What does a therapist do?"
+      ],
+      "responses": [
+        "A therapist is a broad designation that refers to professionals who are trained to provide treatment and rehabilitation. The term is often applied to psychologists, but it can include others who provide a variety of services, including social workers, counselors, life coaches, and many others. "
+      ],
+      "id": 135
+    },
+    {
+      "tag": "fact-7",
+      "patterns": [
+        "What is therapy?",
+        "Do i need therapy?",
+        "Who is therapy for?"
+      ],
+      "responses": [
+        "Therapy is a form of treatment that aims to help resolve mental or emotional issues.",
+        "Therapy is a form of treatment that aims to help resolve mental or emotional issues. It is helpful for those with mental health conditions or even everyday life challenges."
+      ],
+      "id": 136
+    },
+    {
+      "tag": "fact-8",
+      "patterns": [
+        "What does it mean to have a mental illness?"
+      ],
+      "responses": [
+        "Mental illnesses are health conditions that disrupt a person's thoughts, emotions, relationships, and daily functioning. They are associated with distress and diminished capacity to engage in the ordinary activities of daily life. Mental illnesses fall along a continuum of severity: some are fairly mild and only interfere with some aspects of life, such as certain phobias. On the other end of the spectrum lie serious mental illnesses, which result in major functional impairment and interference with daily life. These include such disorders as major depression, schizophrenia, and bipolar disorder, and may require that the person receives care in a hospital. It is important to know that mental illnesses are medical conditions that have nothing to do with a person's character, intelligence, or willpower. Just as diabetes is a disorder of the pancreas, mental illness is a medical condition due to the brain's biology. Similarly to how one would treat diabetes with medication and insulin, mental illness is treatable with a combination of medication and social support. These treatments are highly effective, with 70-90 percent of individuals receiving treatment experiencing a reduction in symptoms and an improved quality of life. With the proper treatment, it is very possible for a person with mental illness to be independent and successful."
+      ],
+      "id": 137
+    },
+    {
+      "tag": "fact-9",
+      "patterns": [
+        "Who does mental illness affect?"
+      ],
+      "responses": [
+        "It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background. Although mental illness can affect anyone, certain conditions may be more common in different populations. For instance, eating disorders tend to occur more often in females, while disorders such as attention deficit/hyperactivity disorder is more prevalent in children. Additionally, all ages are susceptible, but the young and the old are especially vulnerable. Mental illnesses usually strike individuals in the prime of their lives, with 75 percent of mental health conditions developing by the age of 24. This makes identification and treatment of mental disorders particularly difficult, because the normal personality and behavioral changes of adolescence may mask symptoms of a mental health condition. Parents and caretakers should be aware of this fact, and take notice of changes in their childÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s mood, personality, personal habits, and social withdrawal. When these occur in children under 18, they are referred to as serious emotional disturbances (SEDs)."
+      ],
+      "id": 138
+    },
+    {
+      "tag": "fact-10",
+      "patterns": [
+        "What causes mental illness?"
+      ],
+      "responses": [
+        "It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background. Although mental illness can affect anyone, certain conditions may be more common in different populations. For instance, eating disorders tend to occur more often in females, while disorders such as attention deficit/hyperactivity disorder is more prevalent in children. Additionally, all ages are susceptible, but the young and the old are especially vulnerable. Mental illnesses usually strike individuals in the prime of their lives, with 75 percent of mental health conditions developing by the age of 24. This makes identification and treatment of mental disorders particularly difficult, because the normal personality and behavioral changes of adolescence may mask symptoms of a mental health condition. Parents and caretakers should be aware of this fact, and take notice of changes in their child's mood, personality, personal habits, and social withdrawal. When these occur in children under 18, they are referred to as serious emotional disturbances (SEDs)."
+      ],
+      "id": 139
+    },
+    {
+      "tag": "fact-11",
+      "patterns": [
+        "What are some of the warning signs of mental illness?"
+      ],
+      "responses": [
+        "Symptoms of mental health disorders vary depending on the type and severity of the condition. The following is a list of general symptoms that may suggest a mental health disorder, particularly when multiple symptoms are expressed at once. \n In adults:\n Confused thinking\n Long-lasting sadness or irritability\n Extreme highs and lows in mood\n Excessive fear, worrying, or anxiety\n Social withdrawal\n Dramatic changes in eating or sleeping habits\n Strong feelings of anger\n Delusions or hallucinations (seeing or hearing things that are not really there)\n Increasing inability to cope with daily problems and activities\n Thoughts of suicide\n Denial of obvious problems\n Many unexplained physical problems\n Abuse of drugs and/or alcohol\n \nIn older children and pre-teens:\n Abuse of drugs and/or alcohol\n Inability to cope with daily problems and activities\n Changes in sleeping and/or eating habits\n Excessive complaints of physical problems\n Defying authority, skipping school, stealing, or damaging property\n Intense fear of gaining weight\n Long-lasting negative mood, often along with poor appetite and thoughts of death\n Frequent outbursts of anger\n \nIn younger children:\n Changes in school performance\n Poor grades despite strong efforts\n Excessive worrying or anxiety\n Hyperactivity\n Persistent nightmares\n Persistent disobedience and/or aggressive behavior\n Frequent temper tantrums"
+      ],
+      "id": 140
+    },
+    {
+      "tag": "fact-12",
+      "patterns": [
+        "Can people with mental illness recover?"
+      ],
+      "responses": [
+        "When healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recovery process. Many people with mental illnesses who are diagnosed and treated respond well, although some might experience a return of symptoms. Even in such cases, with careful monitoring and management of the disorder, it is still quite possible to live a fulfilled and productive life."
+      ],
+      "id": 141
+    },
+    {
+      "tag": "fact-13",
+      "patterns": [
+        "What should I do if I know someone who appears to have the symptoms of a mental disorder?"
+      ],
+      "responses": [
+        "Although Pandora cannot substitute for professional advice, we encourage those with symptoms to talk to their friends and family members and seek the counsel of a mental health professional. The sooner the mental health condition is identified and treated, the sooner they can get on the path to recovery. If you know someone who is having problems, don't assume that the issue will resolve itself. Let them know that you care about them, and that there are treatment options available that will help them heal. Speak with a mental health professional or counselor if you think your friend or family member is experiencing the symptoms of a mental health condition. If the affected loved one knows that you support them, they will be more likely to seek out help."
+      ],
+      "id": 142
+    },
+    {
+      "tag": "fact-14",
+      "patterns": [
+        "How can I find a mental health professional for myself or my child?"
+      ],
+      "responses": [
+        "Feeling comfortable with the professional you or your child is working with is critical to the success of the treatment. Finding the professional who best fits your needs may require research. Start by searching for providers in your area."
+      ],
+      "id": 143
+    },
+    {
+      "tag": "fact-15",
+      "patterns": [
+        "What treatment options are available?"
+      ],
+      "responses": [
+        "Just as there are different types of medications for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people. It is important to find what works best for you or your child."
+      ],
+      "id": 144
+    },
+    {
+      "tag": "fact-16",
+      "patterns": [
+        "If I become involved in treatment, what do I need to know?"
+      ],
+      "responses": [
+        "Since beginning treatment is a big step for individuals and families, it can be very overwhelming. It is important to be as involved and engaged in the treatment process as possible. Some questions you will need to have answered include:\n What is known about the cause of this particular illness?\n Are there other diagnoses where these symptoms are common?\n Do you normally include a physical or neurological examination?\n Are there any additional tests or exams that you would recommend at this point?\n Would you advise an independent opinion from another psychiatrist at this point?\n What program of treatment is the most helpful with this diagnosis?\n Will this program involve services by other specialists? If so, who will be responsible for coordinating these services?\n What do you see as the family's role in this program of treatment?\n How much access will the family have to the individuals who are providing the treatment?\n What medications are generally used with this diagnosis?\n How much experience do you have in treating individuals with this illness?\n What can I do to help you in the treatment?"
+      ],
+      "id": 145
+    },
+    {
+      "tag": "fact-17",
+      "patterns": [
+        "What is the difference between mental health professionals?"
+      ],
+      "responses": [
+        "There are many types of mental health professionals. The variety of providers and their services may be confusing. Each have various levels of education, training, and may have different areas of expertise. Finding the professional who best fits your needs may require some research."
+      ],
+      "id": 146
+    },
+    {
+      "tag": "fact-18",
+      "patterns": [
+        "How can I find a mental health professional right for my child or myself?"
+      ],
+      "responses": [
+        "Feeling comfortable with the professional you or your child is working with is critical to the success of your treatment. Finding the professional who best fits your needs may require some research."
+      ],
+      "id": 147
+    },
+    {
+      "tag": "fact-19",
+      "patterns": [
+        "Where else can I get help?"
+      ],
+      "responses": [
+        "Where you go for help will depend on the nature of the problem and/or symptoms and what best fits you. Often, the best place to start is by talking with someone you trust about your concerns, such as a family member, friend, clergy, healthcare provider, or other professionals. Having this social support is essential in healing from mental illness, and you will be able to ask them for referrals or recommendations for trusted mental health practitioners. Search for mental health resources in your area. Secondly, there are people and places throughout the country that provide services to talk, to listen, and to help you on your journey to recovery. Thirdly, many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members, and friends. Some support groups are peer led while others may be led by a mental health professional."
+      ],
+      "id": 148
+    },
+    {
+      "tag": "fact-20",
+      "patterns": [
+        "What should I know before starting a new medication?"
+      ],
+      "responses": [
+        "The best source of information regarding medications is the physician prescribing them. He or she should be able to answer questions such as:    \n1. What is the medication supposed to do? \n2. When should it begin to take effect, and how will I know when it is effective? \n3. How is the medication taken and for how long? What food, drinks, other medicines, and activities should be avoided while taking this medication? \n4. What are the side effects and what should be done if they occur? \n5. What do I do if a dose is missed? \n6. Is there any written information available about this medication? \n7. Are there other medications that might be appropriate? \n8. If so, why do you prefer the one you have chosen? \n9. How do you monitor medications and what symptoms indicate that they should be raised, lowered, or changed? \n10. All medications should be taken as directed. Most medications for mental illnesses do not work when taken irregularly, and extra doses can cause severe, sometimes dangerous side effects. Many psychiatric medications begin to have a beneficial effect only after they have been taken for several weeks."
+      ],
+      "id": 149
+    },
+    {
+      "tag": "fact-21",
+      "patterns": [
+        "Where can I go to find therapy?"
+      ],
+      "responses": [
+        "Different kinds of therapy are more effective based on the nature of the mental health condition and/or symptoms and the person who has them (for example, children will benefit from a therapist who specializes in childrenÃ¢â‚¬â„¢s mental health). However, there are several different types of treatment and therapy that can help."
+      ],
+      "id": 150
+    },
+    {
+      "tag": "fact-22",
+      "patterns": [
+        "Where can I learn about types of mental health treatment?"
+      ],
+      "responses": [
+        "Mental health conditions are often treated with medication, therapy or a combination of the two. However, there are many different types of treatment available, including Complementary & Alternative Treatments, self-help plans, and peer support. Treatments are very personal and should be discussed by the person with the mental health conditions and his or her team."
+      ],
+      "id": 151
+    },
+    {
+      "tag": "fact-23",
+      "patterns": [
+        "What are the different types of mental health professionals?"
+      ],
+      "responses": [
+        "There are many types of mental health professionals. Finding the right one for you may require some research."
+      ],
+      "id": 152
+    },
+    {
+      "tag": "fact-24",
+      "patterns": [
+        "Where can I go to find a support group?"
+      ],
+      "responses": [
+        "Many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members and friends. Some support groups are peer-led, while others may be led by a mental health professional."
+      ],
+      "id": 153
+    },
+    {
+      "tag": "fact-25",
+      "patterns": [
+        "Can you prevent mental health problems?"
+      ],
+      "responses": [
+        "We can all suffer from mental health challenges, but developing our wellbeing, resilience, and seeking help early can help prevent challenges becoming serious."
+      ],
+      "id": 154
+    },
+    {
+      "tag": "fact-26",
+      "patterns": [
+        "Are there cures for mental health problems?",
+        "is there any cure for mental health problems?"
+      ],
+      "responses": [
+        "It is often more realistic and helpful to find out what helps with the issues you face. Talking, counselling, medication, friendships, exercise, good sleep and nutrition, and meaningful occupation can all help."
+      ],
+      "id": 155
+    },
+    {
+      "tag": "fact-27",
+      "patterns": [
+        "What causes mental health problems?"
+      ],
+      "responses": [
+        "Challenges or problems with your mental health can arise from psychological, biological, and social, issues, as well as life events."
+      ],
+      "id": 156
+    },
+    {
+      "tag": "fact-28",
+      "patterns": [
+        "What do I do if I'm worried about my mental health?"
+      ],
+      "responses": [
+        "The most important thing is to talk to someone you trust. This might be a friend, colleague, family member, or GP. In addition to talking to someone, it may be useful to find out more information about what you are experiencing. These things may help to get some perspective on what you are experiencing, and be the start of getting help."
+      ],
+      "id": 157
+    },
+    {
+      "tag": "fact-29",
+      "patterns": [
+        "How do I know if I'm unwell?"
+      ],
+      "responses": [
+        "If your beliefs , thoughts , feelings or behaviours have a significant impact on your ability to function in what might be considered a normal or ordinary way, it would be important to seek help."
+      ],
+      "id": 158
+    },
+    {
+      "tag": "fact-30",
+      "patterns": [
+        "How can I maintain social connections? What if I feel lonely?"
+      ],
+      "responses": [
+        "A lot of people are alone right now, but we don't have to be lonely. We're all in this together. Think about the different ways to connect that are most meaningful for you. For example, you might prefer a video chat over a phone call, or you might prefer to text throughout the day rather than one set time for a video call. Then, work with your social networks to make a plan. You might video chat with your close friends in the evening and phone a family member once a week. Remember to be mindful of people who may not be online. Check in by phone and ask how you can help. The quality of your social connections matter. Mindlessly scrolling through social media and liking a few posts usually doesn't build strong social connections. Make sure you focus on strategies that actually make you feel included and connected. If your current strategies don't help you feel connected, problem-solve to see if you can find a solution. Everyone feels lonely at times. Maybe you recently moved to a new city, are changing your circle of friends, lost someone important in your life, or lost your job and also lost important social connections with coworkers. Other people may have physical connections to others but may feel like their emotional or social needs aren't met. Measures like social distancing or self-isolation can make loneliness feel worse no matter why you feel lonely now. Reach out to the connections you do have. Suggest ways to keep in touch and see if you can set a regular time to connect. People may hesitate to reach out for a lot of different reasons, so don't be afraid to be the one who asks. Look for local community support groups and mutual aid groups on social media. This pandemic is bringing everyone together, so look for opportunities to make new connections. These groups are a great way to share your skills and abilities or seek help and support. Look for specialized support groups. Support groups are moving online, and there are a lot of different support lines to call if you need to talk to someone."
+      ],
+      "id": 159
+    },
+    {
+      "tag": "fact-31",
+      "patterns": [
+        "What's the difference between anxiety and stress?"
+      ],
+      "responses": [
+        "Stress and anxiety are often used interchangeably, and there is overlap between stress and anxiety. Stress is related to the same fight, flight, or freeze response as anxiety, and the physical sensations of anxiety and stress may be very similar. The cause of stress and anxiety are usually different, however. Stress focuses on mainly external pressures on us that we're finding hard to cope with. When we are stressed, we usually know what we're stressed about, and the symptoms of stress typically disappear after the stressful situation is over. Anxiety, on the other hand, isn't always as easy to figure out. Anxiety focuses on worries or fears about things that could threaten us, as well as anxiety about the anxiety itself. Stress and anxiety are both part of being human, but both can be problems if they last for a long time or have an impact on our well-being or daily life."
+      ],
+      "id": 160
+    },
+    {
+      "tag": "fact-32",
+      "patterns": [
+        "What's the difference between sadness and depression?",
+        "difference between sadness and depression"
+      ],
+      "responses": [
+        "Sadness is a normal reaction to a loss, disappointment, problems, or other difficult situations. Feeling sad from time to time is just another part of being human. In these cases, feelings of sadness go away quickly and you can go about your daily life. Other ways to talk about sadness might be feeling low, feeling down, or feeling blue.A person may say they are feeling depressed, but if it goes away on its own and doesn't impact life in a big way, it probably isn't the illness of depression. Depression is a mental illness that affects your mood, the way you understand yourself, and the way you understand and relate to things around you. It can also go by different names, such as clinical depression, major depressive disorder, or major depression. Depression can come up for no reason, and it lasts for a long time. It's much more than sadness or low mood. People who experience depression may feel worthless or hopeless. They may feel unreasonable guilty. Some people may experience depression as anger or irritability. It may be hard to concentrate or make decisions. Most people lose interest in things that they used to enjoy and may isolate themselves from others. There are also physical signs of depression, such as problems with sleep, appetite and energy and unexplainable aches or pains. Some may experience difficult thoughts about death or ending their life (suicide). Depression lasts longer than two weeks, doesn't usually go away on its own, and impacts your life. It's a real illness, and it is very treatable. It's important to seek help if you're concerned about depression."
+      ],
+      "id": 161
+    }
+  ]
+}

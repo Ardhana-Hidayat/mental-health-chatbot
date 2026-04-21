@@ -1,4 +1,5 @@
 import csv
+import json
 from PyPDF2 import PdfReader
 
 def baca_pdf(file_path):
@@ -22,6 +23,26 @@ def baca_csv(file_path):
                 teks += f"Pertanyaan: {tanya}\nJawaban: {jawab}\n\n"
     except Exception as e:
         print(f"Gagal membaca CSV: {e}")
+    return teks
+
+def baca_json(file_path):
+    teks = ""
+    try:
+        with open(file_path, mode='r', encoding='utf-8') as file:
+            data = json.load(file)
+            
+            if isinstance(data, dict) and "intents" in data:
+                for intent in data["intents"]:
+                    pertanyaan = " atau ".join(intent.get("patterns", []))
+                    jawaban = " | ".join(intent.get("responses", []))
+                    
+                    teks += f"Pertanyaan: {pertanyaan}\nJawaban: {jawaban}\n\n"
+                    
+            else:
+                teks = json.dumps(data, indent=2, ensure_ascii=False)
+                
+    except Exception as e:
+        print(f"Gagal membaca JSON: {e}")
     return teks
 
 def potong_teks(teks, ukuran=500, tumpang_tindih=50):

@@ -1,6 +1,6 @@
+from src.utils import baca_pdf, baca_csv, baca_json, potong_teks
+from src.embeddings import embedding
 import chromadb
-from utils import baca_pdf, baca_csv, potong_teks
-from embedding import embedding
 
 def build_index_scratch():
     print("Memulai proses indexing...")
@@ -12,10 +12,25 @@ def build_index_scratch():
         embedding_function=embedding()
     )
 
-    # Baca file dari folder data
-    teks_pdf = baca_pdf("data/p3k_psikologis.pdf")
+    # Baca file dari folder data dengan nama penampung yang berbeda-beda
+    teks_pdf_1 = baca_pdf("data/p3k_psikologis.pdf")
+    teks_pdf_2 = baca_pdf("data/p3k-psikologis-jarak-jauh.pdf")
+    teks_pdf_3 = baca_pdf("data/Buku-Panduan-PFA.pdf")
+    
     teks_csv = baca_csv("data/Mental_Health_FAQ.csv")
-    teks_gabungan = teks_pdf + "\n" + teks_csv
+    
+    teks_json_1 = baca_json("data/faq.json")
+    teks_json_2 = baca_json("data/conversational.json")
+    
+    # Gabungkan semuanya secara aman
+    teks_gabungan = (
+        teks_pdf_1 + "\n" + 
+        teks_pdf_2 + "\n" + 
+        teks_pdf_3 + "\n" + 
+        teks_csv + "\n" + 
+        teks_json_1 + "\n" + 
+        teks_json_2
+    )
 
     # Potong teks menjadi bagian kecil
     potongan = potong_teks(teks_gabungan)
