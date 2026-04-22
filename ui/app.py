@@ -7,6 +7,14 @@ Jalankan dengan: streamlit run ui/app.py
 =============================================================
 """
 
+# Mencari jalur folder utama (starter_rag)
+FILE = Path(__file__).resolve()
+ROOT = FILE.parents[1]  # Ini akan naik dua tingkat ke folder starter_rag
+
+# Masukkan folder root ke dalam sistem pencarian Python
+if str(ROOT) not in sys.path:
+    sys.path.append(str(ROOT))
+
 import sys
 import os
 from pathlib import Path
