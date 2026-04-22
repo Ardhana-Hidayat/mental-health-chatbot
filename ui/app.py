@@ -7,23 +7,21 @@ Jalankan dengan: streamlit run ui/app.py
 =============================================================
 """
 
-# Mencari jalur folder utama (starter_rag)
+import sys
+import os
 from pathlib import Path
 
+# Mencari jalur folder utama
 FILE = Path(__file__).resolve()
-ROOT = FILE.parents[1]  # Ini akan naik dua tingkat ke folder starter_rag
+ROOT = FILE.parents[1]  
 
 # Masukkan folder root ke dalam sistem pencarian Python
 if str(ROOT) not in sys.path:
     sys.path.append(str(ROOT))
 
-import sys
-import os
-
-# Agar bisa import dari folder src/
-sys.path.append(str(Path(__file__).parent.parent / "src"))
-
+# Sekarang baru panggil library lainnya
 import streamlit as st
+from src.query import load_vectorstore, answer_question
 from dotenv import load_dotenv
 
 load_dotenv()
