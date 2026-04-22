@@ -109,7 +109,7 @@ with st.sidebar:
     st.header("Info Sistem")
     
     st.markdown("""
-    **Kelompok:** Ardhana & Tim  
+    **Kelompok:** Ardhana, Adam, Iqbal 
     **Domain:** Kesehatan Mental (PFA)  
     **LLM:** Groq (Llama-3.3-70b-versatile)  
     **Vector DB:** FAISS  
