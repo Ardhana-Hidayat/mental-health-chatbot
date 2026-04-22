@@ -11,13 +11,14 @@ import sys
 import os
 from pathlib import Path
 
-# Mencari jalur folder utama
+# Mencari jalur folder utama (Project Root)
+# Karena file ini ada di 'ui/app.py', parents[1] adalah root proyek
 FILE = Path(__file__).resolve()
-ROOT = FILE.parents[1]  
+ROOT = FILE.parents[1]
 
-# Masukkan folder root ke dalam sistem pencarian Python
+# Masukkan folder root ke dalam urutan pertama sys.path
 if str(ROOT) not in sys.path:
-    sys.path.append(str(ROOT))
+    sys.path.insert(0, str(ROOT))
 
 # Sekarang baru panggil library lainnya
 import streamlit as st

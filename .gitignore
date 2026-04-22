@@ -9,7 +9,6 @@ env/
 .venv/
 
 # Vector store (bisa diregenerasi)
-vectorstore/
 chroma_db/
 faiss_index/
 
