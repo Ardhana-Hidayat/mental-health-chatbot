@@ -8,6 +8,8 @@ Jalankan dengan: streamlit run ui/app.py
 """
 
 # Mencari jalur folder utama (starter_rag)
+from pathlib import Path
+
 FILE = Path(__file__).resolve()
 ROOT = FILE.parents[1]  # Ini akan naik dua tingkat ke folder starter_rag
 
@@ -17,7 +19,6 @@ if str(ROOT) not in sys.path:
 
 import sys
 import os
-from pathlib import Path
 
 # Agar bisa import dari folder src/
 sys.path.append(str(Path(__file__).parent.parent / "src"))
