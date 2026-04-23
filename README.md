@@ -11,8 +11,8 @@ Mahasiswa mengisi, memodifikasi, dan mengembangkan kode ini sesuai topik kelompo
 
 | Nama                    | NIM       | Tugas Utama |
 |-------------------------|-----------|-------------|
-| Muhammad Adam Al Kidri  | 24431103  | ...         |
-| Iqbal Abdullah          | 24431103  | ...         |
+| Muhammad Adam Al Kidri  | 244311050 | ...         |
+| Iqbal Abdullah          | 244311044 | ...         |
 | Ardhana Syah Hidayat    | 244311037 | ...         |
 
 **Topik Domain:** *Kesehatan (Kesehatan Mental)*  
