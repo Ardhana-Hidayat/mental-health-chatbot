@@ -55,8 +55,8 @@ rag-uts-kelompok-3/
 
 ```bash
 # Clone repository ini
-git clone https://github.com/[username]/rag-uts-[kelompok].git
-cd rag-uts-[kelompok]
+git clone https://github.com/Ardhana-Hidayat/mental-health-chatbot.git
+cd mental-health-chatbot
 
 # Buat virtual environment
 python -m venv venv
