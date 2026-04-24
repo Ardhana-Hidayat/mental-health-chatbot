@@ -118,30 +118,26 @@ Semua konfigurasi utama ada di `src/config.py` (atau langsung di setiap file):
 
 ## 📊 Hasil Evaluasi
 
-*(Isi setelah pengujian selesai)*
-
-| # | Pertanyaan | Jawaban Sistem | Jawaban Ideal | Skor (1-5) |
-|---|-----------|----------------|---------------|-----------|
-| 1 | ... | ... | ... | ... |
-| 2 | ... | ... | ... | ... |
-
-**Rata-rata Skor:** ...  
-**Analisis:** ...
+| METRIK           | NILAI |
+| ---------------- | ----- |
+| TOTAL PERTANYAAN | 10    |
+| RATA-RATA SKOR   | 10/10 |
+| SKOR TERTINGGI   | 5     |
+| SKOR TERENDAH    | -     |
 
 ---
 
 ## 🏗️ Arsitektur Sistem
 
-<img width="1855" height="1801" alt="mermaid-diagram-2026-04-23-190646" src="https://github.com/user-attachments/assets/0e8fa88b-10fe-4901-ba7b-993f761feb7e" />
+<img width="1455" height="1401" alt="mermaid-diagram-2026-04-23-190646" src="https://github.com/user-attachments/assets/0e8fa88b-10fe-4901-ba7b-993f761feb7e" />
 
 ---
 
 ## 📚 Referensi & Sumber
 
-- Framework: *(LangChain docs / LlamaIndex docs)*
-- LLM: *(Groq / Gemini / Ollama)*
-- Vector DB: *(ChromaDB / FAISS docs)*
-- Tutorial yang digunakan: *(cantumkan URL)*
+- Framework: *-*
+- LLM: *Groq - llama-3.3-70b-versatile*
+- Vector DB: *ChromaDB*
 
 ---
 
@@ -149,5 +145,5 @@ Semua konfigurasi utama ada di `src/config.py` (atau langsung di setiap file):
 
 - **Mata Kuliah:** Data Engineering
 - **Program Studi:** D4 Teknologi Rekayasa Perangkat Lunak
-- **Deadline:** *(isi tanggal)*
+- **Deadline:** *24 April 2026*
 "# mental-health-chatbot" 
