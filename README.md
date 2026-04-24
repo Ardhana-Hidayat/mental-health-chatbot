@@ -132,12 +132,9 @@ Semua konfigurasi utama ada di `src/config.py` (atau langsung di setiap file):
 
 ## 🏗️ Arsitektur Sistem
 
-*(Masukkan gambar diagram arsitektur di sini)*
-
 ```
-[Dokumen] → [Loader] → [Splitter] → [Embedding] → [Vector DB]
-                                                         ↕
-[User Query] → [Query Embed] → [Retriever] → [Prompt] → [LLM] → [Jawaban]
+<img width="1855" height="1801" alt="mermaid-diagram-2026-04-23-190646" src="https://github.com/user-attachments/assets/0e8fa88b-10fe-4901-ba7b-993f761feb7e" />
+
 ```
 
 ---
