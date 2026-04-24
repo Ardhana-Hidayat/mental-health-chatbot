@@ -9,11 +9,11 @@ Mahasiswa mengisi, memodifikasi, dan mengembangkan kode ini sesuai topik kelompo
 
 ## 👥 Identitas Kelompok
 
-| Nama                    | NIM       | Tugas Utama |
-|-------------------------|-----------|-------------|
-| Muhammad Adam Al Kidri  | 244311050 | ...         |
-| Iqbal Abdullah          | 244311044 | ...         |
-| Ardhana Syah Hidayat    | 244311037 | ...         |
+| Nama                    | NIM       | Tugas Utama      |
+|-------------------------|-----------|------------------|
+| Muhammad Adam Al Kidri  | 244311050 | Project Manager  |
+| Iqbal Abdullah          | 244311044 | Data Analyst     |
+| Ardhana Syah Hidayat    | 244311037 | Data Engineer    |
 
 **Topik Domain:** *Kesehatan (Kesehatan Mental)*  
 **Stack yang Dipilih:** *From Scratch*  
@@ -107,12 +107,12 @@ python src/query.py
 
 Semua konfigurasi utama ada di `src/config.py` (atau langsung di setiap file):
 
-| Parameter | Default | Keterangan |
-|-----------|---------|------------|
-| `CHUNK_SIZE` | 500 | Ukuran setiap chunk teks (karakter) |
-| `CHUNK_OVERLAP` | 50 | Overlap antar chunk |
-| `TOP_K` | 3 | Jumlah dokumen relevan yang diambil |
-| `MODEL_NAME` | *(isi)* | Nama model LLM yang digunakan |
+| Parameter       | Default                        | Keterangan                          |
+|-----------------|--------------------------------|-------------------------------------|
+| `CHUNK_SIZE`    | 500                            | Ukuran setiap chunk teks (karakter) |
+| `CHUNK_OVERLAP` | 50                             | Overlap antar chunk                 |
+| `TOP_K`         | 3                              | Jumlah dokumen relevan yang diambil |
+| `MODEL_NAME`    | Groq - llama-3.3-70b-versatile | Nama model LLM yang digunakan       |
 
 ---
 
