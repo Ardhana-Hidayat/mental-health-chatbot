@@ -116,6 +116,23 @@ Semua konfigurasi utama ada di `src/config.py` (atau langsung di setiap file):
 
 ---
 
+## 📊 10 Pertanyaan Evaluasi
+
+| # | Pertanyaan | Jawaban Sistem | Jawaban Ideal | Skor (1-5) |
+|---|-----------|----------------|---------------|-----------|
+| 1 | Apa yang dimaksud dengan Psychological First Aid (PFA)? | PFA adalah serangkaian keterampilan untuk mengurangi dampak negatif stres dan mencegah gangguan kesehatan mental dalam situasi krisis. Bantuan praktis dan dukungan kemanusiaan bagi sesama yang terpapar peristiwa krisis serius. | Bantuan praktis dan dukungan kemanusiaan bagi sesama yang terpapar peristiwa krisis serius. | 5 |
+| 2 | Siapa saja orang yang membutuhkan dukungan PFA? | Orang-orang yang sedang mengalami situasi krisis psikologis, stres negatif, atau kondisi distress akibat bencana. | Orang yang sangat tertekan setelah terpapar peristiwa krisis yang baru saja terjadi. | 5 |
+| 3 | Kapan waktu yang paling tepat untuk memberikan PFA? | Segera setelah kejadian atau beberapa hari/minggu setelahnya, tergantung durasi dan keparahan peristiwa. | Saat pertama kali melakukan kontak dengan orang yang mengalami trauma, biasanya segera setelah kejadian. | 5 |
+| 4 | Di mana sebaiknya PFA dilakukan agar aman? | Di tempat yang aman dari bahaya fisik dan memberikan privasi yang cukup agar orang tersebut merasa nyaman. | Di mana saja yang cukup aman bagi pemberi bantuan dan orang yang dibantu, idealnya dengan privasi. | 5 |
+| 5 | Apa saja tiga prinsip aksi utama dalam PFA (Look, Listen, Link)? | Prinsip aksi utamanya adalah Amati (Look), Dengar (Listen), dan Hubungkan (Link). | Tiga prinsip aksi dasar: Look (Amati), Listen (Dengar), dan Link (Hubungkan). | 5 |
+| 6 | Apa yang harus diperiksa saat kita menerapkan prinsip "Look"? | Memeriksa keamanan lingkungan, mencari orang dengan kebutuhan mendasar, dan mencari orang dengan reaksi distres hebat. | Memeriksa keamanan, orang dengan kebutuhan mendasar yang mendesak, dan orang dengan reaksi distres yang serius. | 5 |
+| 7 | Bagaimana cara mendengarkan yang baik agar penyintas merasa didukung? | Memberikan perhatian penuh, tenang, menunjukkan empati, dan tidak memaksa orang untuk bercerita. | Mendengarkan dengan mata, telinga, dan hati; tetap tenang, dan tunjukkan empati. | 5 |
+| 8 | Apa saja tanda-tanda umum bahwa seseorang sedang mengalami stres berat? | Reaksi fisik (gemetar, pusing), kecemasan, rasa takut, hingga reaksi emosional yang intens. | Gejala fisik, menangis, cemas berlebih, hingga reaksi menarik diri dari lingkungan. | 5 |
+| 9 | Apa langkah pertama jika menemukan seseorang ingin menyakiti diri sendiri? | Mencari bantuan dari orang lain/profesional yang lebih siap dan tidak menangani situasi sendirian. | Jaga keamanan mereka, tetap bersama mereka, dan segera hubungi bantuan profesional/medis. | 5 |
+| 10 | Apa yang harus dilakukan jika seseorang ingin menyakiti diri sendiri? | Hubungi layanan darurat segera. | Jaga keamanan mereka dan segera hubungi tenaga medis atau layanan darurat terdekat. | 5 |
+| | | | **Rata-rata Skor** | **5** |
+
+
 ## 📊 Hasil Evaluasi
 
 | METRIK           | NILAI |
@@ -124,6 +141,27 @@ Semua konfigurasi utama ada di `src/config.py` (atau langsung di setiap file):
 | RATA-RATA SKOR   | 10/10 |
 | SKOR TERTINGGI   | 5     |
 | SKOR TERENDAH    | -     |
+
+---
+
+## 🔍 Analisis Kelemahan dan Saran Perbaikan
+
+### ⚠️ Kelemahan Sistem
+
+| # | Kelemahan | Deskripsi |
+|---|-----------|-----------|
+| 1 | Ketergantungan API | Sistem sangat bergantung pada API Groq. Jika kuota habis atau server down, chatbot tidak berfungsi. |
+| 2 | Kualitas Chunking | Beberapa potongan teks (chunks) terkadang terpotong di tengah kalimat, sehingga konteks yang diberikan ke AI kurang utuh. |
+| 3 | Memori Terbatas | Chatbot saat ini lebih fokus pada dokumen daripada mengingat riwayat percakapan yang sangat panjang. |
+
+### 💡 Saran Perbaikan
+
+| # | Saran | Deskripsi |
+|---|-------|-----------|
+| 1 | Implementasi Hybrid Search | Menggabungkan pencarian vektor dengan pencarian Keyword Search untuk meningkatkan akurasi istilah medis spesifik. |
+| 2 | Optimasi Metadata | Menambahkan metadata yang lebih detail pada dokumen agar chatbot bisa menyebutkan halaman spesifik dari PDF yang dikutip. |
+| 3 | Local LLM | Mencoba menggunakan model lokal seperti Ollama agar sistem bisa berjalan tanpa koneksi internet dan menjaga privasi data pengguna lebih baik. |
+
 
 ---
 
